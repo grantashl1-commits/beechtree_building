@@ -3,7 +3,7 @@ import { Picture } from "@/components/media/picture"
 import { Reveal } from "@/components/motion/reveal"
 import { ContactCta } from "@/components/sections/home/contact-cta"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { getProject } from "@/content/projects"
+import { pageImage } from "@/content/media"
 import { company, expertise, process, services } from "@/content/site"
 import { cn } from "@/lib/utils"
 
@@ -27,7 +27,7 @@ export function ServicesPage() {
           <section key={s.slug} id={s.slug} className="grid scroll-mt-28 items-center gap-10 md:grid-cols-12">
             <div className={cn("md:col-span-7", i % 2 === 1 && "md:order-2 md:col-start-6")}>
               <Picture
-                image={getProject(s.imageFrom)?.images[0]}
+                image={pageImage("services", i) ?? pageImage(s.imageFrom)}
                 label={s.title}
                 sizes="(min-width: 768px) 60vw, 100vw"
                 className="aspect-[4/3] rounded-sm"
@@ -36,7 +36,7 @@ export function ServicesPage() {
             <Reveal className={cn("md:col-span-4", i % 2 === 1 ? "md:order-1 md:col-start-1" : "md:col-start-9")}>
               <p className="eyebrow text-beech-deep">{String(i + 1).padStart(2, "0")}</p>
               <h2 className="display mt-4 text-6xl md:text-7xl">{s.title}</h2>
-              <p className="display mt-6 text-2xl leading-snug italic">{s.lead}</p>
+              <p className="display mt-6 text-2xl leading-snug">{s.lead}</p>
               <p className="mt-6 leading-relaxed text-stone">{s.body}</p>
             </Reveal>
           </section>
@@ -49,16 +49,13 @@ export function ServicesPage() {
             <p className="eyebrow text-brass">Expertise</p>
             <h2 className="display mt-4 text-5xl md:text-6xl">Every stage, under one roof.</h2>
           </div>
-          <div className="grid gap-12 sm:grid-cols-2 md:col-span-7 md:col-start-6">
-            {[
-              { title: "Pre-construction", items: expertise.preConstruction },
-              { title: "Construction", items: expertise.construction },
-            ].map((group) => (
+          <div className="grid gap-12 sm:grid-cols-3 md:col-span-8 md:col-start-5">
+            {expertise.map((group) => (
               <div key={group.title}>
                 <p className="eyebrow text-limestone/50">{group.title}</p>
                 <ul className="mt-6 space-y-4">
                   {group.items.map((item) => (
-                    <li key={item} className="display border-b border-white/10 pb-4 text-3xl">
+                    <li key={item} className="display border-b border-white/10 pb-4 text-2xl">
                       {item}
                     </li>
                   ))}

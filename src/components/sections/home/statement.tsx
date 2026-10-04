@@ -1,7 +1,7 @@
 import { Fragment, useRef } from "react"
 import { Picture } from "@/components/media/picture"
 import { featuredProjects } from "@/content/projects"
-import { statement } from "@/content/site"
+import { homeIntro, statement } from "@/content/site"
 import { gsap, MOTION_OK, useGSAP } from "@/lib/gsap"
 
 /** Inline photo "pills" are dropped in after these word positions. */
@@ -41,7 +41,7 @@ export function Statement() {
   return (
     <section ref={root} className="container-site py-28 md:py-44">
       <div className="grid gap-10 md:grid-cols-12">
-        <p className="eyebrow text-beech-deep md:col-span-3">(01) — The studio</p>
+        <p className="eyebrow text-beech-deep md:col-span-3">(01) — {homeIntro.title}</p>
         <div className="md:col-span-9">
           <div data-statement className="display text-[clamp(2rem,4.6vw,4.75rem)] leading-[1.04]">
             {words.map((word, i) => (

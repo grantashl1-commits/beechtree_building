@@ -13,6 +13,8 @@ export type SiteImage = {
   width?: number
   height?: number
   alt?: string
+  /** Which gallery the photo belongs to on a project page (matches the old site's Exterior / Interior). */
+  group?: "exterior" | "interior"
 }
 
 type Manifest = {
@@ -28,6 +30,11 @@ export const scrapedLogo = media.logo
 /** All images found on a page of the original site, in page order. */
 export function pageImages(slug: string): SiteImage[] {
   return media.pages[slug]?.images ?? []
+}
+
+/** Images for one gallery group ("exterior" / "interior"); ungrouped images count as exterior. */
+export function pageImagesByGroup(slug: string, group: "exterior" | "interior"): SiteImage[] {
+  return pageImages(slug).filter((img) => (img.group ?? "exterior") === group)
 }
 
 /** The nth image on a page, or undefined so callers can fall back. */

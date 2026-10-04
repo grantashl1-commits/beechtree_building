@@ -3,7 +3,6 @@ import { PageHeader } from "@/components/layout/page-header"
 import { company, contact } from "@/content/site"
 
 export function ContactPage() {
-  const { address } = company
   return (
     <>
       <title>{`Contact — ${company.name}`}</title>
@@ -28,8 +27,9 @@ export function ContactPage() {
           <div className="space-y-2 border-t border-line pt-6">
             <p className="eyebrow text-stone">Visit</p>
             <a href={company.mapsUrl} target="_blank" rel="noreferrer" className="link-underline text-lg">
-              {address.street}, {address.city} {address.postcode}
+              {company.physicalAddress}
             </a>
+            <p className="text-sm text-stone">Postal: {company.postalAddress}</p>
           </div>
         </aside>
         <div className="md:col-span-7 md:col-start-6">
@@ -40,7 +40,7 @@ export function ContactPage() {
       <section className="h-[60svh] min-h-[380px] w-full bg-ink">
         <iframe
           title={`Map — ${company.name}`}
-          src={`https://maps.google.com/maps?q=${encodeURIComponent(`${address.street}, ${address.city} ${address.postcode}, New Zealand`)}&z=14&output=embed`}
+          src={`https://maps.google.com/maps?q=${encodeURIComponent(`${company.physicalAddress}, New Zealand`)}&z=14&output=embed`}
           className="h-full w-full grayscale-[0.85] contrast-[1.05]"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"

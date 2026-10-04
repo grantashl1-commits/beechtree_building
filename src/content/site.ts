@@ -1,28 +1,35 @@
 /**
  * SITE COPY — business details and every headline/paragraph that isn't a project.
  * Edit text here; the layout updates automatically.
+ * Text marked "verbatim" is the client's own wording from their current website.
  * Facts marked VERIFY came from public listings and should be confirmed with Beechtree.
  */
 
 export const company = {
   name: "Beechtree Building",
   legalName: "Beechtree Building Ltd",
-  tagline: "Award-winning builders of architectural homes in Taupō",
+  // verbatim
+  tagline: "Award winning home builders in the Taupō region",
   description:
     "Beechtree Building is an award-winning Registered Master Builder crafting architecturally designed new homes, additions and renovations across Taupō and the Central Plateau.",
   director: "Simon Dumble",
+  team: "Simon & Kylie Dumble",
   phone: "022 192 1197",
   phoneHref: "tel:+64221921197",
   email: "simon@beechtreebuilding.co.nz",
   address: { street: "4 Parata Street", city: "Taupō", postcode: "3330", country: "New Zealand" },
+  physicalAddress: "24 Raywood Crescent, Tauhara, Taupō",
+  postalAddress: "4 Parata Street, Taupō 3330",
   coordinates: "38.6857° S, 176.0702° E",
-  mapsUrl: "https://maps.google.com/?q=Beechtree+Building+4+Parata+Street+Taupo",
+  mapsUrl: "https://maps.google.com/?q=24+Raywood+Crescent+Tauhara+Taupo",
+  // verbatim
+  guarantee: "We are Registered Master Builders and our work is guaranteed.",
   // Paste the client's "Get more reviews" link from Google Business Profile here.
   googleReviewUrl: "https://share.google/QXzQtWp7hHCvrX1Zm",
   socials: [
     { label: "Facebook", href: "https://www.facebook.com/beechtreebuilding/" },
     { label: "ArchiPro", href: "https://archipro.co.nz/professional/beechtree-building" },
-    { label: "Houzz", href: "https://www.houzz.co.nz/professionals/home-builders/beechtree-building-ltd-pfvwnz-pf~1477294875" },
+    // VERIFY: add the Instagram link from the current website footer.
   ],
 }
 
@@ -34,19 +41,29 @@ export const nav = [
 ]
 
 export const hero = {
-  eyebrow: "Registered Master Builders — Taupō, Aotearoa",
+  eyebrow: company.tagline,
   lines: ["Architectural homes,", "built with", "quiet precision."],
   intro:
     "We partner with New Zealand's finest architects to turn ambitious, beautiful designs into homes that stand for generations.",
   primaryCta: { label: "Start your build", href: "/contact" },
   secondaryCta: { label: "View the work", href: "/projects" },
-  badge: "House of the Year — Gold 2023",
+  badge: "House of the Year — Gold 2025",
+}
+
+/** "We build dream homes" — the home page introduction (verbatim). */
+export const homeIntro = {
+  title: "We build dream homes",
+  cta: "Talk to us today about how we can help you get started building your dream.",
 }
 
 export const statement = {
-  text: "We're a hands-on team of licensed builders who treat every home as if it were our own. Complex curves, cantilevers and lakefront sites don't scare us — they're the reason we love what we do.",
-  signature: company.director,
+  // verbatim
+  text: "We’re dedicated to exceeding expectations for craftsmanship, quality, and service on every project — no matter the size or style.",
+  signature: company.team,
 }
+
+/** The four values from the current website (verbatim). */
+export const values = ["Experienced", "Professional team", "Award winning", "Meticulous"]
 
 /** The pinned "blueprint to home" scroll story. Six chapters, in order. */
 export const buildStory = {
@@ -61,7 +78,7 @@ export const buildStory = {
     {
       label: "Design & pricing",
       title: "Buildability, from the first sketch.",
-      body: "Design-build input, scheduling, estimating and honest budgeting — so the home on paper is the home you can build.",
+      body: "Design collaboration, advice and assistance, scheduling, estimating and transparent pricing — so the home on paper is the home you can build.",
     },
     {
       label: "Foundations",
@@ -76,30 +93,38 @@ export const buildStory = {
     {
       label: "Closing in",
       title: "Craft, coordinated.",
-      body: "Cladding, joinery and roofing come together under one exacting standard, with trusted subcontractors managed by us from start to finish.",
+      body: "Cladding, joinery and roofing come together under one exacting standard, with quality control and subcontractor management handled by us from start to finish.",
     },
     {
       label: "Handover",
       title: "Welcome home.",
-      body: "Delivered on time, on budget, and backed by the 10-year Master Build Guarantee.",
+      body: "Delivered on time, on budget, with Code of Compliance, as-built documentation and our digital warranty & maintenance service.",
     },
   ],
 }
 
-export const credentials = [
-  { value: "Gold", label: "House of the Year 2023" },
-  { value: "10 yr", label: "Master Build Guarantee" },
-  { value: "LBP", label: "Licensed Building Practitioners" },
-  { value: "RMB", label: "Registered Master Builders" },
+/**
+ * Master Builders House of the Year medals (Bay of Plenty & Central Plateau),
+ * as shown on the current website. `project` links a medal to its project where known.
+ */
+export const awards: { title: string; year: number; project?: string }[] = [
+  { title: "Gold Award", year: 2025, project: "oak-leaf-abode" },
+  { title: "Regional Category Winner", year: 2023, project: "the-bridge-house" },
+  { title: "Gold Award", year: 2023, project: "the-bridge-house" },
+  { title: "Silver Award", year: 2020 },
+  { title: "Gold Award", year: 2018, project: "clad-to-meet-you" },
+  { title: "Gold Award", year: 2016 },
+  { title: "Local Category Winner", year: 2016 },
+  { title: "Gold Reserve Award", year: 2016 },
 ]
 
-export const awards = [
-  "House of the Year Gold — 2023",
-  "Regional Category Winner — 2023",
-  "House of the Year Silver — 2020",
-  "House of the Year Gold — 2018",
-  "NZIA Architecture Award — 2024",
-  "Best Design Awards — 2024",
+export const awardsProgramme = "Master Builders House of the Year — Bay of Plenty & Central Plateau"
+
+export const credentials = [
+  { value: String(awards.length), label: "House of the Year medals since 2016" },
+  { value: "Gold", label: "House of the Year 2025" },
+  { value: "LBP", label: "Licensed Building Practitioners" },
+  { value: "RMB", label: "Registered Master Builders — our work is guaranteed" },
 ]
 
 export const architects = [
@@ -109,34 +134,71 @@ export const architects = [
   "Design Group Stapleton Elliott",
 ]
 
+/** What architects say (verbatim). */
+export const architectQuotes = [
+  {
+    firm: "Fraser Cameron Architects",
+    author: "Fraser Cameron",
+    projects: ["the-bridge-house", "oak-leaf-abode"],
+    pull: "With a great fit of building team on site for each project and clear communication, the built results and happy clients are testimony to the value Beechtree Building brings to a client and their special project.",
+    paragraphs: [
+      "Fraser Cameron Architects has worked in association with Simon, Kylie and the team at Beechtree Building on a variety of residential projects for our mutual clients.",
+      "While these projects have varied in scope and design, Beechtree Building has remained consistently client and outcome focused in their delivery of building contracts.",
+      "Simon has made the effort to communicate with us to clarify our design intention in detail (both construction and interior finishing details) as necessary throughout the building process.",
+      "With a great fit of building team on site for each project and clear communication, the built results and happy clients are testimony to the value Beechtree Building brings to a client and their special project.",
+    ],
+  },
+  {
+    firm: "Jackie Robinson Architecture",
+    author: "Jackie Robinson",
+    projects: ["wild-at-heart", "hawk-ridge"],
+    pull: "Commitment, enthusiasm, great communication and high ethics are the forefront of who Beechtree Building are.",
+    paragraphs: [
+      "Simon and I have worked on many projects together over time. Engaging with clients as a collective team to work through the processes of their unique projects, from the first client meeting through the Concept Design stage, on to Working Drawings and through the Building Consent process.",
+      "Many of our clients are unfamiliar with the process of building a “New Home” and find the collaborative approach reassuring and appealing. It is our commitment to provide a cooperative and rewarding experience for clients, as this is one of the greatest journeys they may take.",
+      "Simon and Kylie manage a very professional business, delivering an extremely high standard of build. They pride themselves in all they do and place their clients' satisfaction as paramount. Commitment, enthusiasm, great communication and high ethics are the forefront of who Beechtree Building are and I am honoured to be involved with them as an Architectural Design Colleague.",
+    ],
+  },
+]
+
+/**
+ * Services — `lead` and `body` are verbatim; `tagline` is the short line on the home page.
+ * Photos: public/images/services/01 = New Homes, 02 = Additions, 03 = Renovations.
+ * Until those exist, the first photo of the `imageFrom` slug is used.
+ */
 export const services = [
   {
     slug: "new-homes",
     title: "New Homes",
-    lead: "Your architecturally designed home, brought to life.",
-    body: "Our team of licensed builders works closely with you every step of the way to bring your architecturally designed home to life — on time and on budget.",
+    tagline: "Any vision, made real.",
+    lead: "With a passion for architecture and design, we have the skills to make any vision a reality; delivered on time and on budget.",
+    body: "At Beechtree Building, our team of qualified builders work closely with you every step of the way to bring your project to life.",
     imageFrom: "the-bridge-house",
   },
   {
     slug: "additions",
     title: "Additions",
-    lead: "More space, seamlessly matched.",
-    body: "Additions are the perfect way to add space to your existing home. Our craftsmen have extensive experience matching extensions harmoniously with the home you already love.",
-    imageFrom: "kinloch-retreat",
+    tagline: "More space, seamlessly matched.",
+    lead: "Love your home but it's just not quite big enough? Additions are the perfect way to add space to your existing home.",
+    body: "Our team of craftsmen at Beechtree Building have extensive knowledge and experience at matching extensions harmoniously with your existing home.",
+    imageFrom: "craft",
   },
   {
     slug: "renovations",
     title: "Renovations",
-    lead: "Lift what you have into a new realm.",
-    body: "We enhance and develop your current space by seamlessly integrating new features into the existing design — marking it with your distinctive style and vision.",
-    imageFrom: "clad-to-meet-you",
+    tagline: "A new lease on life.",
+    lead: "Beechtree Building can enhance and develop your current space by seamlessly integrating new features and improvements into the existing design.",
+    body: "This lifts the building into a new realm, giving it a new lease on life and marking it with your distinctive style and vision.",
+    imageFrom: "oak-leaf-abode",
   },
 ]
 
-export const expertise = {
-  preConstruction: ["Design-build", "Scheduling", "Estimating & budgeting"],
-  construction: ["Quality control", "Safety management", "Subcontractor management"],
-}
+/** Our expertise (verbatim). */
+export const expertise = [
+  { title: "Pre-Construction", items: ["Design collaboration, advice, & assistance", "Scheduling, estimating & budgeting", "Transparent pricing"] },
+  { title: "Construction", items: ["Quality control", "Safety management", "Subcontractor management"] },
+  { title: "Post-Construction", items: ["Code of Compliance", "As-built documentation", "Digital Warranty & Maintenance Service"] },
+]
 
 // Proposed copy for the pitch — confirm wording with the client.
 export const process = [
@@ -146,59 +208,34 @@ export const process = [
   },
   {
     title: "Pricing & programme",
-    body: "Transparent estimating and a realistic programme, worked through with your architect.",
+    body: "Transparent pricing and a realistic programme, worked through with your architect.",
   },
   {
     title: "The build",
-    body: "One point of contact, weekly updates and a tidy, safe site from start to finish.",
+    body: "Regular project and photo updates, and a tidy, safe site from start to finish.",
   },
   {
     title: "Handover & beyond",
-    body: "A thorough walk-through, your Master Build Guarantee, and a builder who still picks up the phone.",
+    body: "Code of Compliance, as-built documentation, and our digital warranty & maintenance service.",
   },
 ]
 
 export const about = {
   eyebrow: "About Beechtree",
-  title: "A builder's builder.",
+  // verbatim
+  title: "Creative thinking, meticulous execution.",
+  lead: "A combination of professional design and construction expertise",
   paragraphs: [
-    "Beechtree Building is an award-winning, highly experienced building company specialising in quality new homes, renovations and additions in the Taupō region.",
-    "Our approach combines professional design and construction expertise, making you a partner in the build — whether that's a cosy dream home, an architectural masterpiece or the remodelling of an existing residence.",
-    "We're Licensed Building Practitioners and Registered Master Builders, so every home we build is guaranteed.",
+    "Beechtree Building's approach combines professional design and construction expertise and makes you – the client – a partner in the construction. Your priorities drive the project. Whether it’s building your cosy dream home, an architectural masterpiece, or remodelling your present residence, we’ll craft a project that reflects your vision and fits your budget.",
+    "Our talented team of builders, skilled trade partners and professionals will provide you with every advantage necessary to achieve the result of your dreams. We’re dedicated to exceeding expectations for craftsmanship, quality, and service on every project — no matter the size or style. When you choose Beechtree Building, you will receive the highest level of quality, attention, and care to ensure that your new custom home or renovation—architectural or otherwise — is delivered on time, on budget, and to your exact specifications.",
+    company.guarantee,
   ],
-  quote: {
-    text: "Beechtree Building have remained consistently client and outcome focused — the built results and happy clients testify to the value they bring.",
-    author: "Fraser Cameron Architects",
-  },
 }
-
-/** Shown when Google reviews aren't configured yet (or the API is unavailable). */
-export const fallbackReviews = [
-  {
-    author: "Steve Bignell",
-    rating: 5,
-    text: "I decided to choose Simon Dumble of Beechtree Building to build my house on Lake Terrace — it was the best decision I had ever made. The quality of the build was excellent.",
-  },
-  {
-    author: "Two In One clients",
-    rating: 5,
-    text: "Simon and his team at Beechtree Building did a splendid job with our house. Our project ran smoothly. Simon was very approachable and offered assistance right through our whole design and build process.",
-  },
-  {
-    author: "Kinloch Retreat clients",
-    rating: 5,
-    text: "Simon and his team are the quintessential Kiwi builders that we all wish for: honest, reliable and highly skilled.",
-  },
-  {
-    author: "Wild at Heart clients",
-    rating: 5,
-    text: "Our joiner told us Simon is the only builder he works with that gives him a square corner and a straight wall every time.",
-  },
-]
 
 export const contact = {
   eyebrow: "Start your build",
-  title: "Let's build something remarkable.",
-  body: "Tell us a little about your site, your architect and your timing. Simon will be in touch personally.",
+  title: "Let’s build.",
+  // verbatim
+  body: "From concept to construction, we’re ready to build your dream. We promise a client-centric approach that empowers ideas, eases concerns, and delivers quality craftsmanship we’ll all be proud of.",
   projectTypes: ["New home", "Addition", "Renovation", "Not sure yet"],
 }

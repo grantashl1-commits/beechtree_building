@@ -51,7 +51,7 @@ export function ProjectsPage() {
                   {p.location}
                   {p.architect && ` · ${p.architect}`}
                 </p>
-                {p.awards?.[0] && <p className="eyebrow mt-3 text-beech-deep">{p.awards[0]}</p>}
+                {p.awards?.[0] && <p className="eyebrow mt-3 text-beech-deep">{p.awards[0].label}</p>}
               </div>
               <ArrowUpRight className="mt-2 size-6 shrink-0 transition-transform duration-500 group-hover:rotate-45" />
             </div>

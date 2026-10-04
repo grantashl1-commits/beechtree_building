@@ -2,7 +2,7 @@ import { ArrowUpRight } from "lucide-react"
 import { useRef, useState, type PointerEvent } from "react"
 import { Picture } from "@/components/media/picture"
 import { TransitionLink } from "@/components/providers/page-transition"
-import { getProject } from "@/content/projects"
+import { pageImage } from "@/content/media"
 import { services } from "@/content/site"
 import { gsap, useGSAP } from "@/lib/gsap"
 import { cn } from "@/lib/utils"
@@ -57,7 +57,7 @@ export function ServicesList() {
                 <span className="display text-[clamp(2.75rem,7vw,7.5rem)] leading-[0.9] transition-[transform,color] duration-700 ease-[var(--ease-out-expo)] group-hover:translate-x-3 group-hover:text-beech md:col-span-6">
                   {s.title}
                 </span>
-                <span className="text-stone md:col-span-4">{s.lead}</span>
+                <span className="text-stone md:col-span-4">{s.tagline}</span>
                 <ArrowUpRight className="hidden size-7 justify-self-end transition-transform duration-500 group-hover:rotate-45 md:col-span-1 md:block" />
               </TransitionLink>
             </li>
@@ -81,7 +81,7 @@ export function ServicesList() {
           {services.map((s, i) => (
             <Picture
               key={s.slug}
-              image={getProject(s.imageFrom)?.images[0]}
+              image={pageImage("services", i) ?? pageImage(s.imageFrom)}
               label={s.title}
               sizes="340px"
               className={cn("absolute inset-0 transition-opacity duration-500", active === i ? "opacity-100" : "opacity-0")}

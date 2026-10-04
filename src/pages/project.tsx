@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight, X } from "lucide-react"
+import { ArrowLeft, ArrowRight, ArrowUpRight, X } from "lucide-react"
 import { useRef, useState } from "react"
 import { Navigate, useParams } from "react-router"
 import { Picture } from "@/components/media/picture"
@@ -29,8 +29,18 @@ function ProjectView({ slug }: { slug: string }) {
   const { introDone } = useIntro()
   const [lightbox, setLightbox] = useState<number | null>(null)
 
-  // Gallery shows real photos, or three placeholders that preview the layout
-  const gallery: (SiteImage | undefined)[] = project.images.length > 1 ? project.images.slice(1) : [undefined, undefined, undefined]
+  const [showAllHighlights, setShowAllHighlights] = useState(false)
+
+  // Exterior / Interior galleries (the cover photo is the hero, so it's not repeated).
+  // With no photos yet, three placeholders preview the layout.
+  const rest = project.images.slice(1)
+  const galleries: { title: string; images: (SiteImage | undefined)[] }[] = rest.length
+    ? [
+        { title: "Exterior", images: rest.filter((img) => (img.group ?? "exterior") === "exterior") },
+        { title: "Interior", images: rest.filter((img) => img.group === "interior") },
+      ].filter((g) => g.images.length)
+    : [{ title: "Gallery", images: [undefined, undefined, undefined] }]
+  const lightboxImages = rest
 
   useGSAP(
     () => {
@@ -52,10 +62,10 @@ function ProjectView({ slug }: { slug: string }) {
 
   const facts = [
     { label: "Location", value: project.location },
-    { label: "Architect", value: project.architect },
     { label: "Size", value: project.size },
     { label: "Completed", value: project.year },
   ].filter((f) => f.value)
+  const highlights = showAllHighlights ? project.highlights : project.highlights.slice(0, 2)
 
   return (
     <div ref={root}>
@@ -83,6 +93,11 @@ function ProjectView({ slug }: { slug: string }) {
               {project.summary}
             </span>
           </p>
+          {project.architect && (
+            <p className="eyebrow mt-6 text-limestone/60">
+              House design by <span className="text-brass">{project.architect}</span>
+            </p>
+          )}
         </div>
       </section>
 
@@ -94,13 +109,45 @@ function ProjectView({ slug }: { slug: string }) {
               <p className="mt-1 text-lg">{f.value}</p>
             </div>
           ))}
+          {project.architect && (
+            <div className="border-t border-line pt-4">
+              <p className="eyebrow text-stone">House design by</p>
+              {project.architectUrl ? (
+                <a href={project.architectUrl} target="_blank" rel="noreferrer" className="link-underline mt-1 inline-flex items-center gap-1 text-lg">
+                  {project.architect} <ArrowUpRight className="size-4" />
+                </a>
+              ) : (
+                <p className="mt-1 text-lg">{project.architect}</p>
+              )}
+            </div>
+          )}
           {project.awards && (
             <div className="border-t border-line pt-4">
               <p className="eyebrow text-stone">Recognition</p>
               <ul className="mt-2 space-y-2">
                 {project.awards.map((a) => (
-                  <li key={a} className="text-beech-deep">
-                    {a}
+                  <li key={a.label} className="text-beech-deep">
+                    {a.href ? (
+                      <a href={a.href} target="_blank" rel="noreferrer" className="link-underline">
+                        {a.label}
+                      </a>
+                    ) : (
+                      a.label
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {project.features && (
+            <div className="border-t border-line pt-4">
+              <p className="eyebrow text-stone">Features</p>
+              <ul className="mt-2 space-y-2">
+                {project.features.map((f) => (
+                  <li key={f.href}>
+                    <a href={f.href} target="_blank" rel="noreferrer" className="link-underline inline-flex items-center gap-1">
+                      {f.label} <ArrowUpRight className="size-3.5" />
+                    </a>
                   </li>
                 ))}
               </ul>
@@ -108,45 +155,73 @@ function ProjectView({ slug }: { slug: string }) {
           )}
         </Reveal>
         <div className="md:col-span-7 md:col-start-6">
+          <p className="eyebrow mb-6 text-beech-deep">Property highlights</p>
           <Reveal className="space-y-6">
-            {project.body.map((para, i) => (
-              <p key={i} className={cn(i === 0 ? "display text-[clamp(1.75rem,3vw,2.75rem)] leading-[1.12]" : "text-lg leading-relaxed text-stone")}>
+            {highlights.map((para, i) => (
+              <p key={i} className={cn(i === 0 ? "display text-[clamp(1.6rem,2.6vw,2.4rem)] leading-[1.15]" : "text-lg leading-relaxed text-stone")}>
                 {para}
               </p>
             ))}
           </Reveal>
+          {project.highlights.length > 2 && (
+            <button
+              type="button"
+              onClick={() => setShowAllHighlights((v) => !v)}
+              aria-expanded={showAllHighlights}
+              className="link-underline eyebrow mt-6 text-ink"
+            >
+              {showAllHighlights ? "Show less" : "Read more"}
+            </button>
+          )}
           {project.testimonial && (
             <figure className="mt-16 border-l-2 border-beech pl-8">
-              <blockquote className="display text-2xl leading-snug italic md:text-3xl">“{project.testimonial.quote}”</blockquote>
+              <blockquote className="space-y-4">
+                {project.testimonial.paragraphs.map((para, i) => (
+                  <p key={i} className={i === 0 ? "display text-2xl leading-snug md:text-3xl" : "leading-relaxed text-stone"}>
+                    {i === 0 && "“"}
+                    {para}
+                    {i === project.testimonial!.paragraphs.length - 1 && "”"}
+                  </p>
+                ))}
+              </blockquote>
               <figcaption className="eyebrow mt-5 text-stone">— {project.testimonial.author}</figcaption>
             </figure>
           )}
         </div>
       </section>
 
-      <section className="container-site grid gap-5 pb-28 md:grid-cols-2">
-        {gallery.map((img, i) => {
-          const wide = i % 3 === 0
-          return (
-            <button
-              key={img?.src ?? i}
-              type="button"
-              disabled={!img}
-              data-cursor={img ? "Expand" : undefined}
-              onClick={() => img && setLightbox(i)}
-              className={cn("group relative overflow-hidden rounded-sm text-left", wide ? "aspect-[16/9] md:col-span-2" : "aspect-[4/5]")}
-            >
-              <Picture
-                image={img}
-                label={`${project.title} ${String(i + 2).padStart(2, "0")}`}
-                sizes={wide ? "100vw" : "50vw"}
-                className="h-full w-full"
-                imgClassName="transition-transform duration-[1.6s] ease-[var(--ease-out-expo)] group-hover:scale-[1.03]"
-              />
-            </button>
-          )
-        })}
-      </section>
+      {galleries.map((gallery) => (
+        <section key={gallery.title} aria-label={`${project.title} — ${gallery.title}`} className="container-site pb-24">
+          <div className="mb-8 flex items-baseline justify-between border-t border-line pt-6">
+            <h2 className="display text-4xl md:text-5xl">{gallery.title}</h2>
+            {gallery.images[0] && <span className="eyebrow text-stone">{String(gallery.images.length).padStart(2, "0")} photos</span>}
+          </div>
+          <div className="grid gap-5 md:grid-cols-2">
+            {gallery.images.map((img, i) => {
+              const wide = i % 3 === 0
+              return (
+                <button
+                  key={img?.src ?? i}
+                  type="button"
+                  disabled={!img}
+                  data-cursor={img ? "Expand" : undefined}
+                  aria-label={img ? `Enlarge photo: ${img.alt || project.title}` : undefined}
+                  onClick={() => img && setLightbox(lightboxImages.indexOf(img))}
+                  className={cn("group relative overflow-hidden rounded-sm text-left", wide ? "aspect-[16/9] md:col-span-2" : "aspect-[4/5]")}
+                >
+                  <Picture
+                    image={img}
+                    label={`${project.title} ${String(i + 2).padStart(2, "0")}`}
+                    sizes={wide ? "100vw" : "50vw"}
+                    className="h-full w-full"
+                    imgClassName="transition-transform duration-[1.6s] ease-[var(--ease-out-expo)] group-hover:scale-[1.03]"
+                  />
+                </button>
+              )
+            })}
+          </div>
+        </section>
+      ))}
 
       <TransitionLink
         to={`/projects/${next.slug}`}
@@ -167,7 +242,7 @@ function ProjectView({ slug }: { slug: string }) {
       <ContactCta />
 
       <Lightbox
-        images={gallery.filter((g): g is SiteImage => Boolean(g))}
+        images={lightboxImages}
         index={lightbox}
         title={project.title}
         onChange={setLightbox}

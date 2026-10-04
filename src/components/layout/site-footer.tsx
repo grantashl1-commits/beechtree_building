@@ -24,11 +24,9 @@ export function SiteFooter() {
           <div className="space-y-3">
             <p className="eyebrow text-limestone/50">Studio</p>
             <address className="leading-relaxed text-limestone/80 not-italic">
-              {company.address.street}
+              {company.physicalAddress}
               <br />
-              {company.address.city} {company.address.postcode}
-              <br />
-              {company.address.country}
+              <span className="text-limestone/50">Postal:</span> {company.postalAddress}
             </address>
             <a href={company.phoneHref} className="link-underline block">
               {company.phone}
@@ -58,7 +56,7 @@ export function SiteFooter() {
 
       <div className="container-site flex flex-wrap items-center justify-between gap-4 border-t border-white/10 py-6 text-xs text-limestone/50">
         <Logo tone="light" className="h-7" />
-        <p>Registered Master Builders · Licensed Building Practitioners</p>
+        <p>{company.guarantee}</p>
         <p>
           © {YEAR} {company.legalName}
         </p>

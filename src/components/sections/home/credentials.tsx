@@ -19,8 +19,10 @@ export function Credentials() {
 
       <Marquee className="mt-20 border-y border-line py-6" duration={55}>
         {awards.map((a) => (
-          <span key={a} className="flex items-center">
-            <span className="display px-8 text-[clamp(2rem,4vw,3.75rem)] whitespace-nowrap italic">{a}</span>
+          <span key={`${a.title}-${a.year}`} className="flex items-center">
+            <span className="display px-8 text-[clamp(2rem,4vw,3.75rem)] whitespace-nowrap italic">
+              {a.title} — {a.year}
+            </span>
             <Star />
           </span>
         ))}
