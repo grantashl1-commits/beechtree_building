@@ -37,6 +37,9 @@ const JUNK = /^(\.DS_Store|Thumbs\.db|desktop\.ini|\._.+)$/i
 const ORPHAN_SMALL = /^\d{2,}(-[0-9a-f]{8})?-1200\.webp$/
 const MIN_WIDTH = 1200
 
+// Never keep source files open (Windows refuses to delete open files: EBUSY)
+sharp.cache(false)
+
 const flags = new Set(process.argv.slice(2))
 const REPLACE = flags.has("--replace")
 const FORCE = flags.has("--force")
@@ -129,11 +132,12 @@ const scanFailed = errors.length > 0 // still validate every file, so all proble
 for (const { items } of plan) {
   for (const item of items) {
     try {
-      const meta = await sharp(item.source).metadata()
+      const input = await fs.readFile(item.source) // read into memory so the file isn't locked
+      const meta = await sharp(input).metadata()
       if (!meta.width || !meta.height) throw new Error("could not read image size")
       if (meta.width < MIN_WIDTH) warnings.push(`${item.file}: only ${meta.width}px wide — it will look soft on large screens`)
       if (scanFailed) continue
-      const base = sharp(item.source).rotate() // respect camera orientation
+      const base = sharp(input).rotate() // respect camera orientation
       const large = await base.clone().resize({ width: 2400, withoutEnlargement: true }).webp({ quality: 82 }).toBuffer({ resolveWithObject: true })
       const small = await base.clone().resize({ width: 1200, withoutEnlargement: true }).webp({ quality: 80 }).toBuffer()
       const hash = crypto.createHash("sha1").update(large.data).digest("hex").slice(0, 8)
