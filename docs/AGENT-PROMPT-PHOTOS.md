@@ -58,9 +58,10 @@ projects by name. If a match is ambiguous, stop and ask.
          repeated in the Exterior gallery.
        • Then the remaining exterior shots, then interior shots in a sensible walk-through order
          (entry → living → kitchen → bedrooms → bathrooms → details).
-       • Gallery layout: in each gallery, positions 1, 4, 7… are shown full-width at 16:9 and the
-         others are cropped to tall 4:5. For the Exterior gallery, position 1 is exterior/02.
-         Put landscape shots in the wide positions and portrait-friendly shots in between.
+       • Gallery layout: in each gallery, every third photo (positions 1, 4, 7…) is shown
+         full-width at 16:9 and the others are cropped to tall 4:5. Portrait photos are never
+         shown full-width; the next landscape photo takes the wide spot. For the Exterior gallery,
+         position 1 is exterior/02.
 
 3. Site-wide photos. Copy the chosen files; the same photo can also stay in its project folder.
    Name them as in step 2:

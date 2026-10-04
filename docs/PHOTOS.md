@@ -38,7 +38,7 @@ public/images/
 ## Where a project's photos appear
 
 - **Cover** (the first exterior photo): shown on the project page hero, its card on /projects, the home page "Selected works" reel and the "Next project" banner. The covers of Whareroa Hideaway and Kinloch Retreat also appear as small photo "pills" in the home page's opening statement. The cover isn't repeated in the Exterior gallery.
-- **Galleries:** in each gallery, photos 1, 4, 7… are shown full-width (16:9) and the rest are cropped tall (4:5). Put landscape shots in the wide positions.
+- **Galleries:** every third photo (1, 4, 7…) is shown full-width (16:9) and the rest are cropped tall (4:5). Portrait photos are never shown full-width: they stay tall and the next landscape photo takes the wide spot, so you don't need to plan the order around it.
 
 ## Adding photos
 
@@ -51,6 +51,7 @@ public/images/
    npm run images              # add new photos after any already there
    npm run images -- --replace # first time only: swap the interim images for the originals
    npm run images -- --check   # change nothing; verify everything is registered and has alt text
+   npm run images -- --rehash  # one-off: give older photos named 01.webp… content-hashed names
    ```
    - The script checks every file before changing anything. If one is bad, it says so and **nothing is changed**.
    - Each photo becomes optimised 2400px and 1200px WebP files, with a short content hash in the name.

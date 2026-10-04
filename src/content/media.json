@@ -8,115 +8,115 @@
     "the-bridge-house": {
       "images": [
         {
-          "src": "/images/the-bridge-house/01.webp",
-          "srcSmall": "/images/the-bridge-house/01-1200.webp",
+          "src": "/images/the-bridge-house/01-905f33f2.webp",
+          "srcSmall": "/images/the-bridge-house/01-905f33f2-1200.webp",
           "width": 2048,
           "height": 1364,
-          "alt": "The Bridge House — exterior",
+          "alt": "The Bridge House — cedar-clad wings stretching along the grassy hillside",
           "group": "exterior"
         },
         {
-          "src": "/images/the-bridge-house/02.webp",
-          "srcSmall": "/images/the-bridge-house/02-1200.webp",
+          "src": "/images/the-bridge-house/02-f23e24a2.webp",
+          "srcSmall": "/images/the-bridge-house/02-f23e24a2-1200.webp",
           "width": 2048,
           "height": 834,
-          "alt": "The Bridge House — exterior",
+          "alt": "The Bridge House — street view of the angled cedar and dark-clad forms, with hills behind",
           "group": "exterior"
         },
         {
-          "src": "/images/the-bridge-house/03.webp",
-          "srcSmall": "/images/the-bridge-house/03-1200.webp",
+          "src": "/images/the-bridge-house/03-c556a77d.webp",
+          "srcSmall": "/images/the-bridge-house/03-c556a77d-1200.webp",
           "width": 1000,
           "height": 667,
-          "alt": "The Bridge House — exterior",
+          "alt": "The Bridge House — extended eaves sheltering the deck along the side of the house",
           "group": "exterior"
         },
         {
-          "src": "/images/the-bridge-house/04.webp",
-          "srcSmall": "/images/the-bridge-house/04-1200.webp",
+          "src": "/images/the-bridge-house/04-d2af5663.webp",
+          "srcSmall": "/images/the-bridge-house/04-d2af5663-1200.webp",
           "width": 1000,
           "height": 667,
-          "alt": "The Bridge House — exterior",
+          "alt": "The Bridge House — vertical cedar cladding and a large picture window looking out to the hills",
           "group": "exterior"
         },
         {
-          "src": "/images/the-bridge-house/05.webp",
-          "srcSmall": "/images/the-bridge-house/05-1200.webp",
+          "src": "/images/the-bridge-house/05-c353d77e.webp",
+          "srcSmall": "/images/the-bridge-house/05-c353d77e-1200.webp",
           "width": 1000,
           "height": 667,
-          "alt": "The Bridge House — exterior",
+          "alt": "The Bridge House — vertical cedar cladding and dark trims meeting at sharp angles",
           "group": "exterior"
         },
         {
-          "src": "/images/the-bridge-house/06.webp",
-          "srcSmall": "/images/the-bridge-house/06-1200.webp",
+          "src": "/images/the-bridge-house/06-28108b1e.webp",
+          "srcSmall": "/images/the-bridge-house/06-28108b1e-1200.webp",
           "width": 1000,
           "height": 667,
-          "alt": "The Bridge House — exterior",
+          "alt": "The Bridge House — cedar-clad end of the house beside the driveway",
           "group": "exterior"
         },
         {
-          "src": "/images/the-bridge-house/07.webp",
-          "srcSmall": "/images/the-bridge-house/07-1200.webp",
+          "src": "/images/the-bridge-house/07-ef74d637.webp",
+          "srcSmall": "/images/the-bridge-house/07-ef74d637-1200.webp",
           "width": 1000,
           "height": 667,
-          "alt": "The Bridge House — exterior",
+          "alt": "The Bridge House — living room opening fully onto a covered deck",
           "group": "exterior"
         },
         {
-          "src": "/images/the-bridge-house/08.webp",
-          "srcSmall": "/images/the-bridge-house/08-1200.webp",
+          "src": "/images/the-bridge-house/08-059334a4.webp",
+          "srcSmall": "/images/the-bridge-house/08-059334a4-1200.webp",
           "width": 1000,
           "height": 667,
-          "alt": "The Bridge House — exterior",
+          "alt": "The Bridge House — covered corner deck with outdoor seating and views over the grassland",
           "group": "exterior"
         },
         {
-          "src": "/images/the-bridge-house/09.webp",
-          "srcSmall": "/images/the-bridge-house/09-1200.webp",
+          "src": "/images/the-bridge-house/09-fd9c4a9d.webp",
+          "srcSmall": "/images/the-bridge-house/09-fd9c4a9d-1200.webp",
           "width": 2048,
           "height": 1366,
-          "alt": "The Bridge House — interior",
+          "alt": "The Bridge House — living area with leather sofas, timber-lined ceiling and floor-to-ceiling glazing to the golf course",
           "group": "interior"
         },
         {
-          "src": "/images/the-bridge-house/10.webp",
-          "srcSmall": "/images/the-bridge-house/10-1200.webp",
+          "src": "/images/the-bridge-house/10-d3b7b0a4.webp",
+          "srcSmall": "/images/the-bridge-house/10-d3b7b0a4-1200.webp",
           "width": 1366,
           "height": 2048,
-          "alt": "The Bridge House — interior",
+          "alt": "The Bridge House — living room with a fireplace, timber ceiling and polished concrete floor",
           "group": "interior"
         },
         {
-          "src": "/images/the-bridge-house/11.webp",
-          "srcSmall": "/images/the-bridge-house/11-1200.webp",
+          "src": "/images/the-bridge-house/11-c848760b.webp",
+          "srcSmall": "/images/the-bridge-house/11-c848760b-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "The Bridge House — interior",
+          "alt": "The Bridge House — media room with a fireplace, opening onto the deck",
           "group": "interior"
         },
         {
-          "src": "/images/the-bridge-house/12.webp",
-          "srcSmall": "/images/the-bridge-house/12-1200.webp",
+          "src": "/images/the-bridge-house/12-bf94e0ce.webp",
+          "srcSmall": "/images/the-bridge-house/12-bf94e0ce-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "The Bridge House — interior",
+          "alt": "The Bridge House — studio kitchenette under a timber-lined ceiling",
           "group": "interior"
         },
         {
-          "src": "/images/the-bridge-house/13.webp",
-          "srcSmall": "/images/the-bridge-house/13-1200.webp",
+          "src": "/images/the-bridge-house/13-54e1cb99.webp",
+          "srcSmall": "/images/the-bridge-house/13-54e1cb99-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "The Bridge House — interior",
+          "alt": "The Bridge House — bespoke built-in bunk beds in the studio",
           "group": "interior"
         },
         {
-          "src": "/images/the-bridge-house/14.webp",
-          "srcSmall": "/images/the-bridge-house/14-1200.webp",
+          "src": "/images/the-bridge-house/14-a644909f.webp",
+          "srcSmall": "/images/the-bridge-house/14-a644909f-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "The Bridge House — interior",
+          "alt": "The Bridge House — bedroom with a dark timber feature wall and sliding doors to the view",
           "group": "interior"
         }
       ]
@@ -124,235 +124,235 @@
     "whareroa-hideaway": {
       "images": [
         {
-          "src": "/images/whareroa-hideaway/01.webp",
-          "srcSmall": "/images/whareroa-hideaway/01-1200.webp",
+          "src": "/images/whareroa-hideaway/01-90be6b4a.webp",
+          "srcSmall": "/images/whareroa-hideaway/01-90be6b4a-1200.webp",
           "width": 2000,
           "height": 1500,
-          "alt": "Whareroa Hideaway — exterior",
+          "alt": "Whareroa Hideaway — the home tucked into the bush-clad valley, with its living roof and glazed front",
           "group": "exterior"
         },
         {
-          "src": "/images/whareroa-hideaway/02.webp",
-          "srcSmall": "/images/whareroa-hideaway/02-1200.webp",
+          "src": "/images/whareroa-hideaway/02-f160117a.webp",
+          "srcSmall": "/images/whareroa-hideaway/02-f160117a-1200.webp",
           "width": 2000,
           "height": 1500,
-          "alt": "Whareroa Hideaway — exterior",
+          "alt": "Whareroa Hideaway — sheltered concrete-block outdoor fireplace and woodstack beside the timber-lined dining room",
           "group": "exterior"
         },
         {
-          "src": "/images/whareroa-hideaway/03.webp",
-          "srcSmall": "/images/whareroa-hideaway/03-1200.webp",
+          "src": "/images/whareroa-hideaway/04-256e6a3d.webp",
+          "srcSmall": "/images/whareroa-hideaway/04-256e6a3d-1200.webp",
           "width": 2000,
           "height": 1500,
-          "alt": "Whareroa Hideaway — exterior",
+          "alt": "Whareroa Hideaway — living roof of native grasses and the outdoor fireplace chimney",
           "group": "exterior"
         },
         {
-          "src": "/images/whareroa-hideaway/04.webp",
-          "srcSmall": "/images/whareroa-hideaway/04-1200.webp",
+          "src": "/images/whareroa-hideaway/05-0e26726d.webp",
+          "srcSmall": "/images/whareroa-hideaway/05-0e26726d-1200.webp",
           "width": 2000,
           "height": 1500,
-          "alt": "Whareroa Hideaway — exterior",
+          "alt": "Whareroa Hideaway — the living roof and outdoor fireplace seen from the hillside behind",
           "group": "exterior"
         },
         {
-          "src": "/images/whareroa-hideaway/05.webp",
-          "srcSmall": "/images/whareroa-hideaway/05-1200.webp",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Whareroa Hideaway — exterior",
-          "group": "exterior"
-        },
-        {
-          "src": "/images/whareroa-hideaway/06.webp",
-          "srcSmall": "/images/whareroa-hideaway/06-1200.webp",
+          "src": "/images/whareroa-hideaway/06-5a906cbf.webp",
+          "srcSmall": "/images/whareroa-hideaway/06-5a906cbf-1200.webp",
           "width": 1500,
           "height": 1125,
-          "alt": "Whareroa Hideaway — exterior",
+          "alt": "Whareroa Hideaway — glazed front opening onto the lawn, with the curved timber wall inside",
           "group": "exterior"
         },
         {
-          "src": "/images/whareroa-hideaway/07.webp",
-          "srcSmall": "/images/whareroa-hideaway/07-1200.webp",
+          "src": "/images/whareroa-hideaway/07-1c9c5a8e.webp",
+          "srcSmall": "/images/whareroa-hideaway/07-1c9c5a8e-1200.webp",
           "width": 2000,
           "height": 1500,
-          "alt": "Whareroa Hideaway — exterior",
+          "alt": "Whareroa Hideaway — the low, flat-roofed home and lawn under a moody sky",
           "group": "exterior"
         },
         {
-          "src": "/images/whareroa-hideaway/08.webp",
-          "srcSmall": "/images/whareroa-hideaway/08-1200.webp",
+          "src": "/images/whareroa-hideaway/08-cac4b391.webp",
+          "srcSmall": "/images/whareroa-hideaway/08-cac4b391-1200.webp",
           "width": 1500,
           "height": 1125,
-          "alt": "Whareroa Hideaway — exterior",
+          "alt": "Whareroa Hideaway — timber-lined living room glowing behind the glazed sliders",
           "group": "exterior"
         },
         {
-          "src": "/images/whareroa-hideaway/09.webp",
-          "srcSmall": "/images/whareroa-hideaway/09-1200.webp",
+          "src": "/images/whareroa-hideaway/09-8f17f00a.webp",
+          "srcSmall": "/images/whareroa-hideaway/09-8f17f00a-1200.webp",
           "width": 1500,
           "height": 2000,
-          "alt": "Whareroa Hideaway — exterior",
+          "alt": "Whareroa Hideaway — concrete-block outdoor fireplace with a full woodstack",
           "group": "exterior"
         },
         {
-          "src": "/images/whareroa-hideaway/10.webp",
-          "srcSmall": "/images/whareroa-hideaway/10-1200.webp",
+          "src": "/images/whareroa-hideaway/10-0368e0ad.webp",
+          "srcSmall": "/images/whareroa-hideaway/10-0368e0ad-1200.webp",
           "width": 1500,
           "height": 1125,
-          "alt": "Whareroa Hideaway — exterior",
+          "alt": "Whareroa Hideaway — front of the home with the outdoor fireplace and native bush behind",
           "group": "exterior"
         },
         {
-          "src": "/images/whareroa-hideaway/11.webp",
-          "srcSmall": "/images/whareroa-hideaway/11-1200.webp",
+          "src": "/images/whareroa-hideaway/11-7a0dd2c3.webp",
+          "srcSmall": "/images/whareroa-hideaway/11-7a0dd2c3-1200.webp",
           "width": 1500,
           "height": 1125,
-          "alt": "Whareroa Hideaway — exterior",
+          "alt": "Whareroa Hideaway — living room seen through the glazing, with a light-stalk skylight on the living roof",
           "group": "exterior"
         },
         {
-          "src": "/images/whareroa-hideaway/12.webp",
-          "srcSmall": "/images/whareroa-hideaway/12-1200.webp",
+          "src": "/images/whareroa-hideaway/12-e76120ef.webp",
+          "srcSmall": "/images/whareroa-hideaway/12-e76120ef-1200.webp",
           "width": 2000,
           "height": 1500,
-          "alt": "Whareroa Hideaway — interior",
+          "alt": "Whareroa Hideaway — timber-lined living room with a long window seat looking into the bush",
           "group": "interior"
         },
         {
-          "src": "/images/whareroa-hideaway/13.webp",
-          "srcSmall": "/images/whareroa-hideaway/13-1200.webp",
-          "width": 1500,
-          "height": 2000,
-          "alt": "Whareroa Hideaway — interior",
-          "group": "interior"
-        },
-        {
-          "src": "/images/whareroa-hideaway/14.webp",
-          "srcSmall": "/images/whareroa-hideaway/14-1200.webp",
-          "width": 1500,
-          "height": 2000,
-          "alt": "Whareroa Hideaway — interior",
-          "group": "interior"
-        },
-        {
-          "src": "/images/whareroa-hideaway/15.webp",
-          "srcSmall": "/images/whareroa-hideaway/15-1200.webp",
-          "width": 1500,
-          "height": 2000,
-          "alt": "Whareroa Hideaway — interior",
-          "group": "interior"
-        },
-        {
-          "src": "/images/whareroa-hideaway/16.webp",
-          "srcSmall": "/images/whareroa-hideaway/16-1200.webp",
-          "width": 1500,
-          "height": 2000,
-          "alt": "Whareroa Hideaway — interior",
-          "group": "interior"
-        },
-        {
-          "src": "/images/whareroa-hideaway/17.webp",
-          "srcSmall": "/images/whareroa-hideaway/17-1200.webp",
+          "src": "/images/whareroa-hideaway/03-4b4c0433.webp",
+          "srcSmall": "/images/whareroa-hideaway/03-4b4c0433-1200.webp",
           "width": 2000,
           "height": 1500,
-          "alt": "Whareroa Hideaway — interior",
+          "alt": "Whareroa Hideaway — living area with a wood burner, leather sofa and skylight above",
           "group": "interior"
         },
         {
-          "src": "/images/whareroa-hideaway/18.webp",
-          "srcSmall": "/images/whareroa-hideaway/18-1200.webp",
+          "src": "/images/whareroa-hideaway/13-5c460b9f.webp",
+          "srcSmall": "/images/whareroa-hideaway/13-5c460b9f-1200.webp",
           "width": 1500,
           "height": 2000,
-          "alt": "Whareroa Hideaway — interior",
+          "alt": "Whareroa Hideaway — armchair beside a large window framing the bush",
           "group": "interior"
         },
         {
-          "src": "/images/whareroa-hideaway/19.webp",
-          "srcSmall": "/images/whareroa-hideaway/19-1200.webp",
+          "src": "/images/whareroa-hideaway/14-59935fbf.webp",
+          "srcSmall": "/images/whareroa-hideaway/14-59935fbf-1200.webp",
           "width": 1500,
           "height": 2000,
-          "alt": "Whareroa Hideaway — interior",
+          "alt": "Whareroa Hideaway — built-in plywood bunk beds",
           "group": "interior"
         },
         {
-          "src": "/images/whareroa-hideaway/20.webp",
-          "srcSmall": "/images/whareroa-hideaway/20-1200.webp",
+          "src": "/images/whareroa-hideaway/15-5d11d403.webp",
+          "srcSmall": "/images/whareroa-hideaway/15-5d11d403-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — view past the curved timber wall to the dining table and outdoor fireplace",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/16-3812f070.webp",
+          "srcSmall": "/images/whareroa-hideaway/16-3812f070-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — bedroom with timber-lined walls and a skylight",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/17-604ea759.webp",
+          "srcSmall": "/images/whareroa-hideaway/17-604ea759-1200.webp",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Whareroa Hideaway — living room with built-in seating, polished concrete floor and a wall of glass to the bush",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/18-c613b1e9.webp",
+          "srcSmall": "/images/whareroa-hideaway/18-c613b1e9-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — timber-framed doorway into a mosaic-tiled bathroom",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/19-f333c6c7.webp",
+          "srcSmall": "/images/whareroa-hideaway/19-f333c6c7-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — kitchen with green cabinetry, timber shelves and timber-lined walls",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/20-d44a9d75.webp",
+          "srcSmall": "/images/whareroa-hideaway/20-d44a9d75-1200.webp",
           "width": 1500,
           "height": 1125,
-          "alt": "Whareroa Hideaway — interior",
+          "alt": "Whareroa Hideaway — wood burner on a log-store hearth with built-in seating",
           "group": "interior"
         },
         {
-          "src": "/images/whareroa-hideaway/21.webp",
-          "srcSmall": "/images/whareroa-hideaway/21-1200.webp",
+          "src": "/images/whareroa-hideaway/21-c5b9e66c.webp",
+          "srcSmall": "/images/whareroa-hideaway/21-c5b9e66c-1200.webp",
           "width": 1500,
           "height": 2000,
-          "alt": "Whareroa Hideaway — interior",
+          "alt": "Whareroa Hideaway — green kitchen cabinetry set into the timber-lined wall",
           "group": "interior"
         },
         {
-          "src": "/images/whareroa-hideaway/22.webp",
-          "srcSmall": "/images/whareroa-hideaway/22-1200.webp",
+          "src": "/images/whareroa-hideaway/22-7fa58515.webp",
+          "srcSmall": "/images/whareroa-hideaway/22-7fa58515-1200.webp",
           "width": 1500,
           "height": 2000,
-          "alt": "Whareroa Hideaway — interior",
+          "alt": "Whareroa Hideaway — living area with a wood burner and leather sofa under a skylight",
           "group": "interior"
         },
         {
-          "src": "/images/whareroa-hideaway/23.webp",
-          "srcSmall": "/images/whareroa-hideaway/23-1200.webp",
+          "src": "/images/whareroa-hideaway/23-a447abe3.webp",
+          "srcSmall": "/images/whareroa-hideaway/23-a447abe3-1200.webp",
           "width": 1500,
           "height": 2000,
-          "alt": "Whareroa Hideaway — interior",
+          "alt": "Whareroa Hideaway — curved timber wall framing the view to the outdoor fireplace",
           "group": "interior"
         },
         {
-          "src": "/images/whareroa-hideaway/24.webp",
-          "srcSmall": "/images/whareroa-hideaway/24-1200.webp",
+          "src": "/images/whareroa-hideaway/24-76a25518.webp",
+          "srcSmall": "/images/whareroa-hideaway/24-76a25518-1200.webp",
           "width": 1500,
           "height": 2000,
-          "alt": "Whareroa Hideaway — interior",
+          "alt": "Whareroa Hideaway — wood burner, leather sofa and side table beneath a skylight",
           "group": "interior"
         },
         {
-          "src": "/images/whareroa-hideaway/25.webp",
-          "srcSmall": "/images/whareroa-hideaway/25-1200.webp",
+          "src": "/images/whareroa-hideaway/25-3f95b2c0.webp",
+          "srcSmall": "/images/whareroa-hideaway/25-3f95b2c0-1200.webp",
           "width": 1500,
           "height": 2000,
-          "alt": "Whareroa Hideaway — interior",
+          "alt": "Whareroa Hideaway — bedroom with timber-lined walls lit by a skylight",
           "group": "interior"
         },
         {
-          "src": "/images/whareroa-hideaway/26.webp",
-          "srcSmall": "/images/whareroa-hideaway/26-1200.webp",
+          "src": "/images/whareroa-hideaway/26-a4024334.webp",
+          "srcSmall": "/images/whareroa-hideaway/26-a4024334-1200.webp",
           "width": 1500,
           "height": 2000,
-          "alt": "Whareroa Hideaway — interior",
+          "alt": "Whareroa Hideaway — bedroom with timber-lined walls and a bright artwork",
           "group": "interior"
         },
         {
-          "src": "/images/whareroa-hideaway/27.webp",
-          "srcSmall": "/images/whareroa-hideaway/27-1200.webp",
+          "src": "/images/whareroa-hideaway/27-7bd779b5.webp",
+          "srcSmall": "/images/whareroa-hideaway/27-7bd779b5-1200.webp",
           "width": 1500,
           "height": 2000,
-          "alt": "Whareroa Hideaway — interior",
+          "alt": "Whareroa Hideaway — bedroom with a timber feature wall, artwork and skylight",
           "group": "interior"
         },
         {
-          "src": "/images/whareroa-hideaway/28.webp",
-          "srcSmall": "/images/whareroa-hideaway/28-1200.webp",
+          "src": "/images/whareroa-hideaway/28-11de9d23.webp",
+          "srcSmall": "/images/whareroa-hideaway/28-11de9d23-1200.webp",
           "width": 1500,
           "height": 1125,
-          "alt": "Whareroa Hideaway — interior",
+          "alt": "Whareroa Hideaway — looking up into a light-stalk skylight through the timber ceiling",
           "group": "interior"
         },
         {
-          "src": "/images/whareroa-hideaway/29.webp",
-          "srcSmall": "/images/whareroa-hideaway/29-1200.webp",
+          "src": "/images/whareroa-hideaway/29-7c66549a.webp",
+          "srcSmall": "/images/whareroa-hideaway/29-7c66549a-1200.webp",
           "width": 1500,
           "height": 2000,
-          "alt": "Whareroa Hideaway — interior",
+          "alt": "Whareroa Hideaway — hallway view to an armchair by the window",
           "group": "interior"
         }
       ]
@@ -360,211 +360,211 @@
     "oak-leaf-abode": {
       "images": [
         {
-          "src": "/images/oak-leaf-abode/01.webp",
-          "srcSmall": "/images/oak-leaf-abode/01-1200.webp",
+          "src": "/images/oak-leaf-abode/01-1a0a4821.webp",
+          "srcSmall": "/images/oak-leaf-abode/01-1a0a4821-1200.webp",
           "width": 2400,
           "height": 1797,
-          "alt": "Oak Leaf Abode — exterior",
+          "alt": "Oak Leaf Abode — aerial view of the home above Kinloch bay and Lake Taupō",
           "group": "exterior"
         },
         {
-          "src": "/images/oak-leaf-abode/02.webp",
-          "srcSmall": "/images/oak-leaf-abode/02-1200.webp",
+          "src": "/images/oak-leaf-abode/03-34a7b18e.webp",
+          "srcSmall": "/images/oak-leaf-abode/03-34a7b18e-1200.webp",
           "width": 2400,
           "height": 1600,
-          "alt": "Oak Leaf Abode — exterior",
+          "alt": "Oak Leaf Abode — dark weatherboard and cedar on the elevated site, looking down the lake",
           "group": "exterior"
         },
         {
-          "src": "/images/oak-leaf-abode/03.webp",
-          "srcSmall": "/images/oak-leaf-abode/03-1200.webp",
-          "width": 2400,
-          "height": 1600,
-          "alt": "Oak Leaf Abode — exterior",
-          "group": "exterior"
-        },
-        {
-          "src": "/images/oak-leaf-abode/04.webp",
-          "srcSmall": "/images/oak-leaf-abode/04-1200.webp",
+          "src": "/images/oak-leaf-abode/04-39f6f196.webp",
+          "srcSmall": "/images/oak-leaf-abode/04-39f6f196-1200.webp",
           "width": 2400,
           "height": 1043,
-          "alt": "Oak Leaf Abode — exterior",
+          "alt": "Oak Leaf Abode — the long, low home stepping down the site with the lake behind",
           "group": "exterior"
         },
         {
-          "src": "/images/oak-leaf-abode/05.webp",
-          "srcSmall": "/images/oak-leaf-abode/05-1200.webp",
+          "src": "/images/oak-leaf-abode/05-214936be.webp",
+          "srcSmall": "/images/oak-leaf-abode/05-214936be-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Oak Leaf Abode — exterior",
+          "alt": "Oak Leaf Abode — glazed living wing with clerestory windows and a sheltered deck",
           "group": "exterior"
         },
         {
-          "src": "/images/oak-leaf-abode/06.webp",
-          "srcSmall": "/images/oak-leaf-abode/06-1200.webp",
+          "src": "/images/oak-leaf-abode/06-5029f32b.webp",
+          "srcSmall": "/images/oak-leaf-abode/06-5029f32b-1200.webp",
           "width": 1500,
           "height": 1123,
-          "alt": "Oak Leaf Abode — exterior",
+          "alt": "Oak Leaf Abode — the home above the bay, with hills and lake beyond",
           "group": "exterior"
         },
         {
-          "src": "/images/oak-leaf-abode/07.webp",
-          "srcSmall": "/images/oak-leaf-abode/07-1200.webp",
+          "src": "/images/oak-leaf-abode/07-66b51a15.webp",
+          "srcSmall": "/images/oak-leaf-abode/07-66b51a15-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Oak Leaf Abode — exterior",
+          "alt": "Oak Leaf Abode — side view along the house, with the lake in the distance",
           "group": "exterior"
         },
         {
-          "src": "/images/oak-leaf-abode/08.webp",
-          "srcSmall": "/images/oak-leaf-abode/08-1200.webp",
+          "src": "/images/oak-leaf-abode/08-57cedf87.webp",
+          "srcSmall": "/images/oak-leaf-abode/08-57cedf87-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Oak Leaf Abode — exterior",
+          "alt": "Oak Leaf Abode — street entry with a timber-framed porch and double garage",
           "group": "exterior"
         },
         {
-          "src": "/images/oak-leaf-abode/09.webp",
-          "srcSmall": "/images/oak-leaf-abode/09-1200.webp",
+          "src": "/images/oak-leaf-abode/09-81f28329.webp",
+          "srcSmall": "/images/oak-leaf-abode/09-81f28329-1200.webp",
           "width": 2400,
           "height": 1600,
-          "alt": "Oak Leaf Abode — exterior",
+          "alt": "Oak Leaf Abode — sheltered outdoor living area and deck on the sunny side of the house",
           "group": "exterior"
         },
         {
-          "src": "/images/oak-leaf-abode/10.webp",
-          "srcSmall": "/images/oak-leaf-abode/10-1200.webp",
+          "src": "/images/oak-leaf-abode/10-7266fa66.webp",
+          "srcSmall": "/images/oak-leaf-abode/10-7266fa66-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Oak Leaf Abode — exterior",
+          "alt": "Oak Leaf Abode — courtyard planted with a young tree, framed by dark cladding and glazing",
           "group": "exterior"
         },
         {
-          "src": "/images/oak-leaf-abode/11.webp",
-          "srcSmall": "/images/oak-leaf-abode/11-1200.webp",
+          "src": "/images/oak-leaf-abode/11-c89776f1.webp",
+          "srcSmall": "/images/oak-leaf-abode/11-c89776f1-1200.webp",
           "width": 1500,
           "height": 1123,
-          "alt": "Oak Leaf Abode — exterior",
+          "alt": "Oak Leaf Abode — aerial view of the roof and gardens",
           "group": "exterior"
         },
         {
-          "src": "/images/oak-leaf-abode/12.webp",
-          "srcSmall": "/images/oak-leaf-abode/12-1200.webp",
+          "src": "/images/oak-leaf-abode/02-cf23e086.webp",
+          "srcSmall": "/images/oak-leaf-abode/02-cf23e086-1200.webp",
           "width": 2400,
           "height": 1600,
-          "alt": "Oak Leaf Abode — interior",
+          "alt": "Oak Leaf Abode — living room with lake views, timber-lined ceiling and polished concrete floor",
           "group": "interior"
         },
         {
-          "src": "/images/oak-leaf-abode/13.webp",
-          "srcSmall": "/images/oak-leaf-abode/13-1200.webp",
-          "width": 1500,
-          "height": 1000,
-          "alt": "Oak Leaf Abode — interior",
+          "src": "/images/oak-leaf-abode/12-3ced93de.webp",
+          "srcSmall": "/images/oak-leaf-abode/12-3ced93de-1200.webp",
+          "width": 2400,
+          "height": 1600,
+          "alt": "Oak Leaf Abode — living room with a fireplace, orange sofa and views down the lake",
           "group": "interior"
         },
         {
-          "src": "/images/oak-leaf-abode/14.webp",
-          "srcSmall": "/images/oak-leaf-abode/14-1200.webp",
+          "src": "/images/oak-leaf-abode/13-c5430624.webp",
+          "srcSmall": "/images/oak-leaf-abode/13-c5430624-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Oak Leaf Abode — interior",
+          "alt": "Oak Leaf Abode — long timber dining table in front of the hemlock-panelled kitchen",
           "group": "interior"
         },
         {
-          "src": "/images/oak-leaf-abode/15.webp",
-          "srcSmall": "/images/oak-leaf-abode/15-1200.webp",
+          "src": "/images/oak-leaf-abode/14-1fb3d404.webp",
+          "srcSmall": "/images/oak-leaf-abode/14-1fb3d404-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Oak Leaf Abode — interior",
+          "alt": "Oak Leaf Abode — dining table beside corner glazing",
           "group": "interior"
         },
         {
-          "src": "/images/oak-leaf-abode/16.webp",
-          "srcSmall": "/images/oak-leaf-abode/16-1200.webp",
+          "src": "/images/oak-leaf-abode/15-89784648.webp",
+          "srcSmall": "/images/oak-leaf-abode/15-89784648-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Oak Leaf Abode — interior",
+          "alt": "Oak Leaf Abode — window seat and open corner glazing",
           "group": "interior"
         },
         {
-          "src": "/images/oak-leaf-abode/17.webp",
-          "srcSmall": "/images/oak-leaf-abode/17-1200.webp",
+          "src": "/images/oak-leaf-abode/16-ae0627b6.webp",
+          "srcSmall": "/images/oak-leaf-abode/16-ae0627b6-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Oak Leaf Abode — interior",
+          "alt": "Oak Leaf Abode — kitchen island and hemlock timber panelling",
           "group": "interior"
         },
         {
-          "src": "/images/oak-leaf-abode/18.webp",
-          "srcSmall": "/images/oak-leaf-abode/18-1200.webp",
+          "src": "/images/oak-leaf-abode/17-02c73aab.webp",
+          "srcSmall": "/images/oak-leaf-abode/17-02c73aab-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Oak Leaf Abode — interior",
+          "alt": "Oak Leaf Abode — window seat with shelves, looking past the dining table to the lake",
           "group": "interior"
         },
         {
-          "src": "/images/oak-leaf-abode/19.webp",
-          "srcSmall": "/images/oak-leaf-abode/19-1200.webp",
+          "src": "/images/oak-leaf-abode/18-4236ff07.webp",
+          "srcSmall": "/images/oak-leaf-abode/18-4236ff07-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Oak Leaf Abode — interior",
+          "alt": "Oak Leaf Abode — dining and kitchen with polished concrete floors",
           "group": "interior"
         },
         {
-          "src": "/images/oak-leaf-abode/20.webp",
-          "srcSmall": "/images/oak-leaf-abode/20-1200.webp",
+          "src": "/images/oak-leaf-abode/19-a4be8ecf.webp",
+          "srcSmall": "/images/oak-leaf-abode/19-a4be8ecf-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Oak Leaf Abode — interior",
+          "alt": "Oak Leaf Abode — dining area opening to the deck through large sliders",
           "group": "interior"
         },
         {
-          "src": "/images/oak-leaf-abode/21.webp",
-          "srcSmall": "/images/oak-leaf-abode/21-1200.webp",
+          "src": "/images/oak-leaf-abode/20-882e4019.webp",
+          "srcSmall": "/images/oak-leaf-abode/20-882e4019-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Oak Leaf Abode — interior",
+          "alt": "Oak Leaf Abode — kitchen island with views out to the hills",
           "group": "interior"
         },
         {
-          "src": "/images/oak-leaf-abode/22.webp",
-          "srcSmall": "/images/oak-leaf-abode/22-1200.webp",
+          "src": "/images/oak-leaf-abode/21-aa0ab820.webp",
+          "srcSmall": "/images/oak-leaf-abode/21-aa0ab820-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Oak Leaf Abode — interior",
+          "alt": "Oak Leaf Abode — dining table and kitchen opening onto the deck",
           "group": "interior"
         },
         {
-          "src": "/images/oak-leaf-abode/23.webp",
-          "srcSmall": "/images/oak-leaf-abode/23-1200.webp",
+          "src": "/images/oak-leaf-abode/22-51417fbc.webp",
+          "srcSmall": "/images/oak-leaf-abode/22-51417fbc-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Oak Leaf Abode — interior",
+          "alt": "Oak Leaf Abode — built-in window seat with open shelving",
           "group": "interior"
         },
         {
-          "src": "/images/oak-leaf-abode/24.webp",
-          "srcSmall": "/images/oak-leaf-abode/24-1200.webp",
+          "src": "/images/oak-leaf-abode/23-b64adbd3.webp",
+          "srcSmall": "/images/oak-leaf-abode/23-b64adbd3-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Oak Leaf Abode — interior",
+          "alt": "Oak Leaf Abode — dining table beneath a pendant light, with lake views",
           "group": "interior"
         },
         {
-          "src": "/images/oak-leaf-abode/25.webp",
-          "srcSmall": "/images/oak-leaf-abode/25-1200.webp",
+          "src": "/images/oak-leaf-abode/24-d21e1950.webp",
+          "srcSmall": "/images/oak-leaf-abode/24-d21e1950-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Oak Leaf Abode — interior",
+          "alt": "Oak Leaf Abode — kitchen bench running towards the glazed living area",
           "group": "interior"
         },
         {
-          "src": "/images/oak-leaf-abode/26.webp",
-          "srcSmall": "/images/oak-leaf-abode/26-1200.webp",
+          "src": "/images/oak-leaf-abode/25-cc9daae9.webp",
+          "srcSmall": "/images/oak-leaf-abode/25-cc9daae9-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Oak Leaf Abode — interior",
+          "alt": "Oak Leaf Abode — living room with a fireplace, timber ceiling and lake view",
+          "group": "interior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/26-7dde7b11.webp",
+          "srcSmall": "/images/oak-leaf-abode/26-7dde7b11-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — kitchen with hemlock panelling, island bench and stools",
           "group": "interior"
         }
       ]
@@ -572,206 +572,206 @@
     "craft": {
       "images": [
         {
-          "src": "/images/craft/01.webp",
-          "srcSmall": "/images/craft/01-1200.webp",
+          "src": "/images/craft/01-7c66549a.webp",
+          "srcSmall": "/images/craft/01-7c66549a-1200.webp",
           "width": 1500,
           "height": 2000,
-          "alt": "Timber craftsmanship detail"
+          "alt": "Whareroa Hideaway — hallway view to an armchair by the window"
         },
         {
-          "src": "/images/craft/02.webp",
-          "srcSmall": "/images/craft/02-1200.webp",
+          "src": "/images/craft/02-76a25518.webp",
+          "srcSmall": "/images/craft/02-76a25518-1200.webp",
           "width": 1500,
           "height": 2000,
-          "alt": "Timber interior detail"
+          "alt": "Whareroa Hideaway — wood burner, leather sofa and side table beneath a skylight"
         },
         {
-          "src": "/images/craft/03.webp",
-          "srcSmall": "/images/craft/03-1200.webp",
+          "src": "/images/craft/03-3f95b2c0.webp",
+          "srcSmall": "/images/craft/03-3f95b2c0-1200.webp",
           "width": 1500,
           "height": 2000,
-          "alt": "Timber joinery detail"
+          "alt": "Whareroa Hideaway — bedroom with timber-lined walls lit by a skylight"
         },
         {
-          "src": "/images/craft/04.webp",
-          "srcSmall": "/images/craft/04-1200.webp",
+          "src": "/images/craft/04-7dde7b11.webp",
+          "srcSmall": "/images/craft/04-7dde7b11-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Timber cladding detail"
+          "alt": "Oak Leaf Abode — kitchen with hemlock panelling, island bench and stools"
         }
       ]
     },
     "about": {
       "images": [
         {
-          "src": "/images/about/01.webp",
-          "srcSmall": "/images/about/01-1200.webp",
+          "src": "/images/about/01-5c460b9f.webp",
+          "srcSmall": "/images/about/01-5c460b9f-1200.webp",
           "width": 1500,
           "height": 2000,
-          "alt": "Whareroa Hideaway — interior"
+          "alt": "Whareroa Hideaway — armchair beside a large window framing the bush"
         }
       ]
     },
     "clad-to-meet-you": {
       "images": [
         {
-          "src": "/images/clad-to-meet-you/01.webp",
-          "srcSmall": "/images/clad-to-meet-you/01-1200.webp",
+          "src": "/images/clad-to-meet-you/01-5ef85d7f.webp",
+          "srcSmall": "/images/clad-to-meet-you/01-5ef85d7f-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Clad to Meet You — exterior",
+          "alt": "Clad to Meet You — blue-clad home with sliding doors open to the lawn and deck",
           "group": "exterior"
         },
         {
-          "src": "/images/clad-to-meet-you/02.webp",
-          "srcSmall": "/images/clad-to-meet-you/02-1200.webp",
+          "src": "/images/clad-to-meet-you/02-57f10df4.webp",
+          "srcSmall": "/images/clad-to-meet-you/02-57f10df4-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Clad to Meet You — exterior",
+          "alt": "Clad to Meet You — cantilevered cedar and bold blue cladding from the street",
           "group": "exterior"
         },
         {
-          "src": "/images/clad-to-meet-you/03.webp",
-          "srcSmall": "/images/clad-to-meet-you/03-1200.webp",
-          "width": 1800,
-          "height": 1202,
-          "alt": "Clad to Meet You — exterior",
-          "group": "exterior"
-        },
-        {
-          "src": "/images/clad-to-meet-you/04.webp",
-          "srcSmall": "/images/clad-to-meet-you/04-1200.webp",
+          "src": "/images/clad-to-meet-you/04-fd930802.webp",
+          "srcSmall": "/images/clad-to-meet-you/04-fd930802-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Clad to Meet You — exterior",
+          "alt": "Clad to Meet You — courtyard deck between the blue-clad wings, with cedar soffits",
           "group": "exterior"
         },
         {
-          "src": "/images/clad-to-meet-you/05.webp",
-          "srcSmall": "/images/clad-to-meet-you/05-1200.webp",
+          "src": "/images/clad-to-meet-you/05-031fc6a6.webp",
+          "srcSmall": "/images/clad-to-meet-you/05-031fc6a6-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Clad to Meet You — exterior",
+          "alt": "Clad to Meet You — courtyard with an outdoor dining table and planters",
           "group": "exterior"
         },
         {
-          "src": "/images/clad-to-meet-you/06.webp",
-          "srcSmall": "/images/clad-to-meet-you/06-1200.webp",
+          "src": "/images/clad-to-meet-you/06-bfc06cbf.webp",
+          "srcSmall": "/images/clad-to-meet-you/06-bfc06cbf-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Clad to Meet You — exterior",
+          "alt": "Clad to Meet You — cantilevered cedar over the sheltered entrance",
           "group": "exterior"
         },
         {
-          "src": "/images/clad-to-meet-you/07.webp",
-          "srcSmall": "/images/clad-to-meet-you/07-1200.webp",
+          "src": "/images/clad-to-meet-you/07-920caddc.webp",
+          "srcSmall": "/images/clad-to-meet-you/07-920caddc-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Clad to Meet You — exterior",
+          "alt": "Clad to Meet You — bedroom sliders opening to the garden",
           "group": "exterior"
         },
         {
-          "src": "/images/clad-to-meet-you/08.webp",
-          "srcSmall": "/images/clad-to-meet-you/08-1200.webp",
+          "src": "/images/clad-to-meet-you/08-9046ca05.webp",
+          "srcSmall": "/images/clad-to-meet-you/08-9046ca05-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Clad to Meet You — exterior",
+          "alt": "Clad to Meet You — cedar-clad wing beside the driveway",
           "group": "exterior"
         },
         {
-          "src": "/images/clad-to-meet-you/09.webp",
-          "srcSmall": "/images/clad-to-meet-you/09-1200.webp",
+          "src": "/images/clad-to-meet-you/09-1cb7b311.webp",
+          "srcSmall": "/images/clad-to-meet-you/09-1cb7b311-1200.webp",
           "width": 1500,
           "height": 1003,
-          "alt": "Clad to Meet You — exterior",
+          "alt": "Clad to Meet You — courtyard dining deck with sliders open to the living room",
           "group": "exterior"
         },
         {
-          "src": "/images/clad-to-meet-you/10.webp",
-          "srcSmall": "/images/clad-to-meet-you/10-1200.webp",
+          "src": "/images/clad-to-meet-you/10-075ead3e.webp",
+          "srcSmall": "/images/clad-to-meet-you/10-075ead3e-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Clad to Meet You — interior",
+          "alt": "Clad to Meet You — sliding doors open to the living room and wood-burner",
           "group": "interior"
         },
         {
-          "src": "/images/clad-to-meet-you/11.webp",
-          "srcSmall": "/images/clad-to-meet-you/11-1200.webp",
+          "src": "/images/clad-to-meet-you/11-ed697d96.webp",
+          "srcSmall": "/images/clad-to-meet-you/11-ed697d96-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Clad to Meet You — interior",
+          "alt": "Clad to Meet You — kitchen with a hibiscus splashback",
           "group": "interior"
         },
         {
-          "src": "/images/clad-to-meet-you/12.webp",
-          "srcSmall": "/images/clad-to-meet-you/12-1200.webp",
+          "src": "/images/clad-to-meet-you/12-35079cf4.webp",
+          "srcSmall": "/images/clad-to-meet-you/12-35079cf4-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Clad to Meet You — interior",
+          "alt": "Clad to Meet You — bedroom with sliding doors to the garden",
           "group": "interior"
         },
         {
-          "src": "/images/clad-to-meet-you/13.webp",
-          "srcSmall": "/images/clad-to-meet-you/13-1200.webp",
+          "src": "/images/clad-to-meet-you/13-749112a3.webp",
+          "srcSmall": "/images/clad-to-meet-you/13-749112a3-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Clad to Meet You — interior",
+          "alt": "Clad to Meet You — lounge with sofas and a wood-burner",
           "group": "interior"
         },
         {
-          "src": "/images/clad-to-meet-you/14.webp",
-          "srcSmall": "/images/clad-to-meet-you/14-1200.webp",
+          "src": "/images/clad-to-meet-you/14-71c6559d.webp",
+          "srcSmall": "/images/clad-to-meet-you/14-71c6559d-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Clad to Meet You — interior",
+          "alt": "Clad to Meet You — bathroom vanity and toilet",
           "group": "interior"
         },
         {
-          "src": "/images/clad-to-meet-you/15.webp",
-          "srcSmall": "/images/clad-to-meet-you/15-1200.webp",
+          "src": "/images/clad-to-meet-you/15-fcaed359.webp",
+          "srcSmall": "/images/clad-to-meet-you/15-fcaed359-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Clad to Meet You — interior",
+          "alt": "Clad to Meet You — kitchen sink beneath a wide window",
           "group": "interior"
         },
         {
-          "src": "/images/clad-to-meet-you/16.webp",
-          "srcSmall": "/images/clad-to-meet-you/16-1200.webp",
+          "src": "/images/clad-to-meet-you/16-47c11b09.webp",
+          "srcSmall": "/images/clad-to-meet-you/16-47c11b09-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Clad to Meet You — interior",
+          "alt": "Clad to Meet You — kitchen with range cooker and hibiscus splashback",
           "group": "interior"
         },
         {
-          "src": "/images/clad-to-meet-you/17.webp",
-          "srcSmall": "/images/clad-to-meet-you/17-1200.webp",
+          "src": "/images/clad-to-meet-you/03-fcb61b79.webp",
+          "srcSmall": "/images/clad-to-meet-you/03-fcb61b79-1200.webp",
+          "width": 1800,
+          "height": 1202,
+          "alt": "Clad to Meet You — kitchen with a hibiscus splashback and range cooker",
+          "group": "interior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/17-8cd7b4d6.webp",
+          "srcSmall": "/images/clad-to-meet-you/17-8cd7b4d6-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Clad to Meet You — interior",
+          "alt": "Clad to Meet You — dining table beside the kitchen and sliding doors",
           "group": "interior"
         },
         {
-          "src": "/images/clad-to-meet-you/18.webp",
-          "srcSmall": "/images/clad-to-meet-you/18-1200.webp",
+          "src": "/images/clad-to-meet-you/18-207aad6f.webp",
+          "srcSmall": "/images/clad-to-meet-you/18-207aad6f-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Clad to Meet You — interior",
+          "alt": "Clad to Meet You — dining area with a rattan pendant light",
           "group": "interior"
         },
         {
-          "src": "/images/clad-to-meet-you/19.webp",
-          "srcSmall": "/images/clad-to-meet-you/19-1200.webp",
+          "src": "/images/clad-to-meet-you/19-a40e5880.webp",
+          "srcSmall": "/images/clad-to-meet-you/19-a40e5880-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Clad to Meet You — interior",
+          "alt": "Clad to Meet You — wood-burner beside the study nook",
           "group": "interior"
         },
         {
-          "src": "/images/clad-to-meet-you/20.webp",
-          "srcSmall": "/images/clad-to-meet-you/20-1200.webp",
+          "src": "/images/clad-to-meet-you/20-697656fa.webp",
+          "srcSmall": "/images/clad-to-meet-you/20-697656fa-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Clad to Meet You — interior",
+          "alt": "Clad to Meet You — kitchen looking through to the dining area",
           "group": "interior"
         }
       ]
@@ -779,179 +779,179 @@
     "curved-by-the-course": {
       "images": [
         {
-          "src": "/images/curved-by-the-course/01.webp",
-          "srcSmall": "/images/curved-by-the-course/01-1200.webp",
+          "src": "/images/curved-by-the-course/01-cc8a5ffb.webp",
+          "srcSmall": "/images/curved-by-the-course/01-cc8a5ffb-1200.webp",
           "width": 2200,
           "height": 1467,
-          "alt": "Curved by the Course — exterior",
+          "alt": "Curved by the Course — the home on its elevated site at dusk, with balconies and terraced planting",
           "group": "exterior"
         },
         {
-          "src": "/images/curved-by-the-course/02.webp",
-          "srcSmall": "/images/curved-by-the-course/02-1200.webp",
+          "src": "/images/curved-by-the-course/02-40058e4b.webp",
+          "srcSmall": "/images/curved-by-the-course/02-40058e4b-1200.webp",
           "width": 2200,
           "height": 1467,
-          "alt": "Curved by the Course — exterior",
+          "alt": "Curved by the Course — aerial view over the home and golf course towards Lake Taupō at sunset",
           "group": "exterior"
         },
         {
-          "src": "/images/curved-by-the-course/03.webp",
-          "srcSmall": "/images/curved-by-the-course/03-1200.webp",
+          "src": "/images/curved-by-the-course/04-53d1a602.webp",
+          "srcSmall": "/images/curved-by-the-course/04-53d1a602-1200.webp",
           "width": 2200,
           "height": 1468,
-          "alt": "Curved by the Course — exterior",
+          "alt": "Curved by the Course — curved façade and garage at sunset, with the lake beyond",
           "group": "exterior"
         },
         {
-          "src": "/images/curved-by-the-course/04.webp",
-          "srcSmall": "/images/curved-by-the-course/04-1200.webp",
+          "src": "/images/curved-by-the-course/05-444b0e90.webp",
+          "srcSmall": "/images/curved-by-the-course/05-444b0e90-1200.webp",
           "width": 2200,
           "height": 1468,
-          "alt": "Curved by the Course — exterior",
+          "alt": "Curved by the Course — Colorsteel tray cladding and vertical battens with concealed lighting",
           "group": "exterior"
         },
         {
-          "src": "/images/curved-by-the-course/05.webp",
-          "srcSmall": "/images/curved-by-the-course/05-1200.webp",
-          "width": 2200,
-          "height": 1468,
-          "alt": "Curved by the Course — exterior",
-          "group": "exterior"
-        },
-        {
-          "src": "/images/curved-by-the-course/06.webp",
-          "srcSmall": "/images/curved-by-the-course/06-1200.webp",
+          "src": "/images/curved-by-the-course/06-67e19533.webp",
+          "srcSmall": "/images/curved-by-the-course/06-67e19533-1200.webp",
           "width": 2200,
           "height": 1648,
-          "alt": "Curved by the Course — exterior",
+          "alt": "Curved by the Course — aerial view of the roof's curves",
           "group": "exterior"
         },
         {
-          "src": "/images/curved-by-the-course/07.webp",
-          "srcSmall": "/images/curved-by-the-course/07-1200.webp",
+          "src": "/images/curved-by-the-course/07-b4bce129.webp",
+          "srcSmall": "/images/curved-by-the-course/07-b4bce129-1200.webp",
           "width": 2200,
           "height": 1468,
-          "alt": "Curved by the Course — exterior",
+          "alt": "Curved by the Course — curved deck with custom balustrade and outdoor seating at dusk",
           "group": "exterior"
         },
         {
-          "src": "/images/curved-by-the-course/08.webp",
-          "srcSmall": "/images/curved-by-the-course/08-1200.webp",
+          "src": "/images/curved-by-the-course/08-f91f238e.webp",
+          "srcSmall": "/images/curved-by-the-course/08-f91f238e-1200.webp",
           "width": 2200,
           "height": 1468,
-          "alt": "Curved by the Course — exterior",
+          "alt": "Curved by the Course — copper entrance door and bluestone crazy paving",
           "group": "exterior"
         },
         {
-          "src": "/images/curved-by-the-course/09.webp",
-          "srcSmall": "/images/curved-by-the-course/09-1200.webp",
+          "src": "/images/curved-by-the-course/09-f7ed4e4e.webp",
+          "srcSmall": "/images/curved-by-the-course/09-f7ed4e4e-1200.webp",
           "width": 2200,
           "height": 1467,
-          "alt": "Curved by the Course — exterior",
+          "alt": "Curved by the Course — the curved deck at sunset, looking west to the lake",
           "group": "exterior"
         },
         {
-          "src": "/images/curved-by-the-course/10.webp",
-          "srcSmall": "/images/curved-by-the-course/10-1200.webp",
+          "src": "/images/curved-by-the-course/10-24ad060a.webp",
+          "srcSmall": "/images/curved-by-the-course/10-24ad060a-1200.webp",
           "width": 2200,
           "height": 1468,
-          "alt": "Curved by the Course — exterior",
+          "alt": "Curved by the Course — curved walls and slatted screens around the ground floor",
           "group": "exterior"
         },
         {
-          "src": "/images/curved-by-the-course/11.webp",
-          "srcSmall": "/images/curved-by-the-course/11-1200.webp",
+          "src": "/images/curved-by-the-course/11-1210069a.webp",
+          "srcSmall": "/images/curved-by-the-course/11-1210069a-1200.webp",
           "width": 2200,
           "height": 1468,
-          "alt": "Curved by the Course — exterior",
+          "alt": "Curved by the Course — view from the home over the golf course to the hills",
           "group": "exterior"
         },
         {
-          "src": "/images/curved-by-the-course/12.webp",
-          "srcSmall": "/images/curved-by-the-course/12-1200.webp",
+          "src": "/images/curved-by-the-course/12-ec505aae.webp",
+          "srcSmall": "/images/curved-by-the-course/12-ec505aae-1200.webp",
           "width": 2200,
           "height": 1467,
-          "alt": "Curved by the Course — interior",
+          "alt": "Curved by the Course — “Yeah Baby!” wall art and retro prints by a timber console",
           "group": "interior"
         },
         {
-          "src": "/images/curved-by-the-course/13.webp",
-          "srcSmall": "/images/curved-by-the-course/13-1200.webp",
+          "src": "/images/curved-by-the-course/13-db517a7c.webp",
+          "srcSmall": "/images/curved-by-the-course/13-db517a7c-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Curved by the Course — interior",
+          "alt": "Curved by the Course — dining nook with leather banquette and green walls under a round skylight",
           "group": "interior"
         },
         {
-          "src": "/images/curved-by-the-course/14.webp",
-          "srcSmall": "/images/curved-by-the-course/14-1200.webp",
+          "src": "/images/curved-by-the-course/14-27eae3d0.webp",
+          "srcSmall": "/images/curved-by-the-course/14-27eae3d0-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Curved by the Course — interior",
+          "alt": "Curved by the Course — slatted screen casting soft shadows beside three round wall lights",
           "group": "interior"
         },
         {
-          "src": "/images/curved-by-the-course/15.webp",
-          "srcSmall": "/images/curved-by-the-course/15-1200.webp",
+          "src": "/images/curved-by-the-course/15-0d823e02.webp",
+          "srcSmall": "/images/curved-by-the-course/15-0d823e02-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Curved by the Course — interior",
+          "alt": "Curved by the Course — open-plan kitchen and living with sunset views over the lake",
           "group": "interior"
         },
         {
-          "src": "/images/curved-by-the-course/16.webp",
-          "srcSmall": "/images/curved-by-the-course/16-1200.webp",
+          "src": "/images/curved-by-the-course/16-5129c4a7.webp",
+          "srcSmall": "/images/curved-by-the-course/16-5129c4a7-1200.webp",
           "width": 1500,
           "height": 1001,
-          "alt": "Curved by the Course — interior",
+          "alt": "Curved by the Course — kitchen island with timber panels and built-in wine fridges",
           "group": "interior"
         },
         {
-          "src": "/images/curved-by-the-course/17.webp",
-          "srcSmall": "/images/curved-by-the-course/17-1200.webp",
+          "src": "/images/curved-by-the-course/17-04f4b69b.webp",
+          "srcSmall": "/images/curved-by-the-course/17-04f4b69b-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Curved by the Course — interior",
+          "alt": "Curved by the Course — styled bench with glassware and retro art prints",
           "group": "interior"
         },
         {
-          "src": "/images/curved-by-the-course/18.webp",
-          "srcSmall": "/images/curved-by-the-course/18-1200.webp",
+          "src": "/images/curved-by-the-course/18-4558c7aa.webp",
+          "srcSmall": "/images/curved-by-the-course/18-4558c7aa-1200.webp",
           "width": 1467,
           "height": 2200,
-          "alt": "Curved by the Course — interior",
+          "alt": "Curved by the Course — light-filled staircase with white oak treads",
           "group": "interior"
         },
         {
-          "src": "/images/curved-by-the-course/19.webp",
-          "srcSmall": "/images/curved-by-the-course/19-1200.webp",
+          "src": "/images/curved-by-the-course/19-5ea63acd.webp",
+          "srcSmall": "/images/curved-by-the-course/19-5ea63acd-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Curved by the Course — interior",
+          "alt": "Curved by the Course — bedroom with a textured feature wall and bold retro bedspread",
           "group": "interior"
         },
         {
-          "src": "/images/curved-by-the-course/20.webp",
-          "srcSmall": "/images/curved-by-the-course/20-1200.webp",
+          "src": "/images/curved-by-the-course/03-ca4fc477.webp",
+          "srcSmall": "/images/curved-by-the-course/03-ca4fc477-1200.webp",
+          "width": 2200,
+          "height": 1468,
+          "alt": "Curved by the Course — green-tiled bathroom with twin basins, oval mirrors and an orange feature wall",
+          "group": "interior"
+        },
+        {
+          "src": "/images/curved-by-the-course/20-9c18c213.webp",
+          "srcSmall": "/images/curved-by-the-course/20-9c18c213-1200.webp",
           "width": 1467,
           "height": 2200,
-          "alt": "Curved by the Course — interior",
+          "alt": "Curved by the Course — bathroom with a round lit mirror and orange feature panel",
           "group": "interior"
         },
         {
-          "src": "/images/curved-by-the-course/21.webp",
-          "srcSmall": "/images/curved-by-the-course/21-1200.webp",
+          "src": "/images/curved-by-the-course/21-9b5b8b1c.webp",
+          "srcSmall": "/images/curved-by-the-course/21-9b5b8b1c-1200.webp",
           "width": 1500,
           "height": 1000,
-          "alt": "Curved by the Course — interior",
+          "alt": "Curved by the Course — dining nook under a round skylight, with green walls and art prints",
           "group": "interior"
         },
         {
-          "src": "/images/curved-by-the-course/22.webp",
-          "srcSmall": "/images/curved-by-the-course/22-1200.webp",
+          "src": "/images/curved-by-the-course/22-8bfc307f.webp",
+          "srcSmall": "/images/curved-by-the-course/22-8bfc307f-1200.webp",
           "width": 1467,
           "height": 2200,
-          "alt": "Curved by the Course — interior",
+          "alt": "Curved by the Course — entry with a white brick wall, console and round rug",
           "group": "interior"
         }
       ]
@@ -959,171 +959,171 @@
     "hawk-ridge": {
       "images": [
         {
-          "src": "/images/hawk-ridge/01.webp",
-          "srcSmall": "/images/hawk-ridge/01-1200.webp",
+          "src": "/images/hawk-ridge/01-471fa4f9.webp",
+          "srcSmall": "/images/hawk-ridge/01-471fa4f9-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Hawk Ridge — exterior",
+          "alt": "Hawk Ridge — cedar-clad home on the ridgeline, with Lake Taupō behind",
           "group": "exterior"
         },
         {
-          "src": "/images/hawk-ridge/02.webp",
-          "srcSmall": "/images/hawk-ridge/02-1200.webp",
+          "src": "/images/hawk-ridge/02-04779648.webp",
+          "srcSmall": "/images/hawk-ridge/02-04779648-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Hawk Ridge — exterior",
+          "alt": "Hawk Ridge — pool and lit entry at dusk, framed in cedar and stone",
           "group": "exterior"
         },
         {
-          "src": "/images/hawk-ridge/03.webp",
-          "srcSmall": "/images/hawk-ridge/03-1200.webp",
+          "src": "/images/hawk-ridge/03-f9db9db5.webp",
+          "srcSmall": "/images/hawk-ridge/03-f9db9db5-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Hawk Ridge — exterior",
+          "alt": "Hawk Ridge — aerial view of the home and pool on the ridgeline",
           "group": "exterior"
         },
         {
-          "src": "/images/hawk-ridge/04.webp",
-          "srcSmall": "/images/hawk-ridge/04-1200.webp",
+          "src": "/images/hawk-ridge/04-fd3c4de7.webp",
+          "srcSmall": "/images/hawk-ridge/04-fd3c4de7-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Hawk Ridge — exterior",
+          "alt": "Hawk Ridge — sheltered poolside lounge with views across the valley",
           "group": "exterior"
         },
         {
-          "src": "/images/hawk-ridge/05.webp",
-          "srcSmall": "/images/hawk-ridge/05-1200.webp",
+          "src": "/images/hawk-ridge/05-f5122978.webp",
+          "srcSmall": "/images/hawk-ridge/05-f5122978-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Hawk Ridge — exterior",
+          "alt": "Hawk Ridge — aerial view over the home and pool to Lake Taupō",
           "group": "exterior"
         },
         {
-          "src": "/images/hawk-ridge/06.webp",
-          "srcSmall": "/images/hawk-ridge/06-1200.webp",
+          "src": "/images/hawk-ridge/06-d6b2cced.webp",
+          "srcSmall": "/images/hawk-ridge/06-d6b2cced-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Hawk Ridge — exterior",
+          "alt": "Hawk Ridge — cedar-clad garage with slot windows",
           "group": "exterior"
         },
         {
-          "src": "/images/hawk-ridge/07.webp",
-          "srcSmall": "/images/hawk-ridge/07-1200.webp",
+          "src": "/images/hawk-ridge/07-7ce45887.webp",
+          "srcSmall": "/images/hawk-ridge/07-7ce45887-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Hawk Ridge — exterior",
+          "alt": "Hawk Ridge — the home spread along the ridge, with farmland and hills beyond",
           "group": "exterior"
         },
         {
-          "src": "/images/hawk-ridge/08.webp",
-          "srcSmall": "/images/hawk-ridge/08-1200.webp",
+          "src": "/images/hawk-ridge/08-b6191c3d.webp",
+          "srcSmall": "/images/hawk-ridge/08-b6191c3d-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Hawk Ridge — exterior",
+          "alt": "Hawk Ridge — pool deck in front of the glazed living areas",
           "group": "exterior"
         },
         {
-          "src": "/images/hawk-ridge/09.webp",
-          "srcSmall": "/images/hawk-ridge/09-1200.webp",
+          "src": "/images/hawk-ridge/09-91191725.webp",
+          "srcSmall": "/images/hawk-ridge/09-91191725-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Hawk Ridge — exterior",
+          "alt": "Hawk Ridge — pool and decks lit up at dusk",
           "group": "exterior"
         },
         {
-          "src": "/images/hawk-ridge/10.webp",
-          "srcSmall": "/images/hawk-ridge/10-1200.webp",
+          "src": "/images/hawk-ridge/10-74ac5220.webp",
+          "srcSmall": "/images/hawk-ridge/10-74ac5220-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Hawk Ridge — exterior",
+          "alt": "Hawk Ridge — pool and timber deck running along the house",
           "group": "exterior"
         },
         {
-          "src": "/images/hawk-ridge/11.webp",
-          "srcSmall": "/images/hawk-ridge/11-1200.webp",
+          "src": "/images/hawk-ridge/11-c3be3dd3.webp",
+          "srcSmall": "/images/hawk-ridge/11-c3be3dd3-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Hawk Ridge — interior",
+          "alt": "Hawk Ridge — living area with sofa and dining table, wrapped in floor-to-ceiling glass",
           "group": "interior"
         },
         {
-          "src": "/images/hawk-ridge/12.webp",
-          "srcSmall": "/images/hawk-ridge/12-1200.webp",
+          "src": "/images/hawk-ridge/12-4df5f132.webp",
+          "srcSmall": "/images/hawk-ridge/12-4df5f132-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Hawk Ridge — interior",
+          "alt": "Hawk Ridge — cedar-lined hallway beside the kitchen",
           "group": "interior"
         },
         {
-          "src": "/images/hawk-ridge/13.webp",
-          "srcSmall": "/images/hawk-ridge/13-1200.webp",
+          "src": "/images/hawk-ridge/13-e02a4a55.webp",
+          "srcSmall": "/images/hawk-ridge/13-e02a4a55-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Hawk Ridge — interior",
+          "alt": "Hawk Ridge — kitchen with a white waterfall island and stools under cedar lining",
           "group": "interior"
         },
         {
-          "src": "/images/hawk-ridge/14.webp",
-          "srcSmall": "/images/hawk-ridge/14-1200.webp",
+          "src": "/images/hawk-ridge/14-637210c8.webp",
+          "srcSmall": "/images/hawk-ridge/14-637210c8-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Hawk Ridge — interior",
+          "alt": "Hawk Ridge — the valley and lake view framed past the kitchen tap",
           "group": "interior"
         },
         {
-          "src": "/images/hawk-ridge/15.webp",
-          "srcSmall": "/images/hawk-ridge/15-1200.webp",
+          "src": "/images/hawk-ridge/15-7f9b2b2f.webp",
+          "srcSmall": "/images/hawk-ridge/15-7f9b2b2f-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Hawk Ridge — interior",
+          "alt": "Hawk Ridge — kitchen island with stools and a cedar feature wall",
           "group": "interior"
         },
         {
-          "src": "/images/hawk-ridge/16.webp",
-          "srcSmall": "/images/hawk-ridge/16-1200.webp",
+          "src": "/images/hawk-ridge/16-3de6107d.webp",
+          "srcSmall": "/images/hawk-ridge/16-3de6107d-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Hawk Ridge — interior",
+          "alt": "Hawk Ridge — bathroom with a double vanity, looking through to a bedroom",
           "group": "interior"
         },
         {
-          "src": "/images/hawk-ridge/17.webp",
-          "srcSmall": "/images/hawk-ridge/17-1200.webp",
+          "src": "/images/hawk-ridge/17-b7ebab85.webp",
+          "srcSmall": "/images/hawk-ridge/17-b7ebab85-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Hawk Ridge — interior",
+          "alt": "Hawk Ridge — stone water feature at the boardwalk entry",
           "group": "interior"
         },
         {
-          "src": "/images/hawk-ridge/18.webp",
-          "srcSmall": "/images/hawk-ridge/18-1200.webp",
+          "src": "/images/hawk-ridge/18-f86c1cb4.webp",
+          "srcSmall": "/images/hawk-ridge/18-f86c1cb4-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Hawk Ridge — interior",
+          "alt": "Hawk Ridge — kitchen and long dining table under the cedar ceiling",
           "group": "interior"
         },
         {
-          "src": "/images/hawk-ridge/19.webp",
-          "srcSmall": "/images/hawk-ridge/19-1200.webp",
+          "src": "/images/hawk-ridge/19-eb4e46bd.webp",
+          "srcSmall": "/images/hawk-ridge/19-eb4e46bd-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Hawk Ridge — interior",
+          "alt": "Hawk Ridge — sheltered poolside lounge with valley views",
           "group": "interior"
         },
         {
-          "src": "/images/hawk-ridge/20.webp",
-          "srcSmall": "/images/hawk-ridge/20-1200.webp",
+          "src": "/images/hawk-ridge/20-f4f368b6.webp",
+          "srcSmall": "/images/hawk-ridge/20-f4f368b6-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Hawk Ridge — interior",
+          "alt": "Hawk Ridge — kitchen island looking towards the stone-clad living area and lake views",
           "group": "interior"
         },
         {
-          "src": "/images/hawk-ridge/21.webp",
-          "srcSmall": "/images/hawk-ridge/21-1200.webp",
+          "src": "/images/hawk-ridge/21-548fd89e.webp",
+          "srcSmall": "/images/hawk-ridge/21-548fd89e-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Hawk Ridge — interior",
+          "alt": "Hawk Ridge — open-plan kitchen, dining and living with panoramic glazing",
           "group": "interior"
         }
       ]
@@ -1131,102 +1131,109 @@
     "home": {
       "images": [
         {
-          "src": "/images/home/01.webp",
-          "srcSmall": "/images/home/01-1200.webp",
-          "width": 2048,
-          "height": 834,
-          "alt": "The Bridge House — courtyard deck"
+          "src": "/images/home/01-1a0a4821.webp",
+          "srcSmall": "/images/home/01-1a0a4821-1200.webp",
+          "width": 2400,
+          "height": 1797,
+          "alt": "Oak Leaf Abode — aerial view of the home above Kinloch bay and Lake Taupō"
+        },
+        {
+          "src": "/images/home/02-e76120ef.webp",
+          "srcSmall": "/images/home/02-e76120ef-1200.webp",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Whareroa Hideaway — timber-lined living room with a long window seat looking into the bush"
         }
       ]
     },
     "kinloch-retreat": {
       "images": [
         {
-          "src": "/images/kinloch-retreat/01.webp",
-          "srcSmall": "/images/kinloch-retreat/01-1200.webp",
+          "src": "/images/kinloch-retreat/01-f11bb17b.webp",
+          "srcSmall": "/images/kinloch-retreat/01-f11bb17b-1200.webp",
           "width": 2200,
           "height": 1467,
-          "alt": "Kinloch Retreat — exterior",
+          "alt": "Kinloch Retreat — charred-timber two-storey box and angled pavilion behind native planting",
           "group": "exterior"
         },
         {
-          "src": "/images/kinloch-retreat/02.webp",
-          "srcSmall": "/images/kinloch-retreat/02-1200.webp",
+          "src": "/images/kinloch-retreat/02-ce95d532.webp",
+          "srcSmall": "/images/kinloch-retreat/02-ce95d532-1200.webp",
           "width": 2200,
           "height": 1467,
-          "alt": "Kinloch Retreat — exterior",
+          "alt": "Kinloch Retreat — the two-storey box and glazed pavilion on the elevated site, with steep berms behind",
           "group": "exterior"
         },
         {
-          "src": "/images/kinloch-retreat/03.webp",
-          "srcSmall": "/images/kinloch-retreat/03-1200.webp",
+          "src": "/images/kinloch-retreat/03-3ce02bb8.webp",
+          "srcSmall": "/images/kinloch-retreat/03-3ce02bb8-1200.webp",
           "width": 2200,
           "height": 1467,
-          "alt": "Kinloch Retreat — exterior",
+          "alt": "Kinloch Retreat — dark-clad home on its elevated platform above the street",
           "group": "exterior"
         },
         {
-          "src": "/images/kinloch-retreat/04.webp",
-          "srcSmall": "/images/kinloch-retreat/04-1200.webp",
+          "src": "/images/kinloch-retreat/04-dddee3b5.webp",
+          "srcSmall": "/images/kinloch-retreat/04-dddee3b5-1200.webp",
           "width": 2200,
           "height": 1467,
-          "alt": "Kinloch Retreat — exterior",
+          "alt": "Kinloch Retreat — entry and garage in vertical charred weatherboard",
           "group": "exterior"
         },
         {
-          "src": "/images/kinloch-retreat/05.webp",
-          "srcSmall": "/images/kinloch-retreat/05-1200.webp",
+          "src": "/images/kinloch-retreat/05-51c50b1b.webp",
+          "srcSmall": "/images/kinloch-retreat/05-51c50b1b-1200.webp",
           "width": 2200,
           "height": 1467,
-          "alt": "Kinloch Retreat — exterior",
+          "alt": "Kinloch Retreat — the two-storey box rising above the native grasses",
           "group": "exterior"
         },
         {
-          "src": "/images/kinloch-retreat/06.webp",
-          "srcSmall": "/images/kinloch-retreat/06-1200.webp",
+          "src": "/images/kinloch-retreat/06-4b9a746e.webp",
+          "srcSmall": "/images/kinloch-retreat/06-4b9a746e-1200.webp",
           "width": 2200,
           "height": 1467,
-          "alt": "Kinloch Retreat — exterior",
+          "alt": "Kinloch Retreat — glazed pavilion behind native grasses",
           "group": "exterior"
         },
         {
-          "src": "/images/kinloch-retreat/07.webp",
-          "srcSmall": "/images/kinloch-retreat/07-1200.webp",
+          "src": "/images/kinloch-retreat/07-b4e0aeb9.webp",
+          "srcSmall": "/images/kinloch-retreat/07-b4e0aeb9-1200.webp",
           "width": 2200,
           "height": 1467,
-          "alt": "Kinloch Retreat — interior",
+          "alt": "Kinloch Retreat — kitchen with a dark island bench and views out through the glazing",
           "group": "interior"
         },
         {
-          "src": "/images/kinloch-retreat/08.webp",
-          "srcSmall": "/images/kinloch-retreat/08-1200.webp",
+          "src": "/images/kinloch-retreat/08-1a6cb799.webp",
+          "srcSmall": "/images/kinloch-retreat/08-1a6cb799-1200.webp",
           "width": 2200,
           "height": 1467,
-          "alt": "Kinloch Retreat — interior",
+          "alt": "Kinloch Retreat — dining area with corner glazing and lake views",
           "group": "interior"
         },
         {
-          "src": "/images/kinloch-retreat/09.webp",
-          "srcSmall": "/images/kinloch-retreat/09-1200.webp",
+          "src": "/images/kinloch-retreat/09-b4dd3f2d.webp",
+          "srcSmall": "/images/kinloch-retreat/09-b4dd3f2d-1200.webp",
           "width": 2200,
           "height": 1466,
-          "alt": "Kinloch Retreat — interior",
+          "alt": "Kinloch Retreat — open-plan living, dining and kitchen",
           "group": "interior"
         },
         {
-          "src": "/images/kinloch-retreat/10.webp",
-          "srcSmall": "/images/kinloch-retreat/10-1200.webp",
+          "src": "/images/kinloch-retreat/10-699caf49.webp",
+          "srcSmall": "/images/kinloch-retreat/10-699caf49-1200.webp",
           "width": 2200,
           "height": 1467,
-          "alt": "Kinloch Retreat — interior",
+          "alt": "Kinloch Retreat — round dining table beside floor-to-ceiling windows",
           "group": "interior"
         },
         {
-          "src": "/images/kinloch-retreat/11.webp",
-          "srcSmall": "/images/kinloch-retreat/11-1200.webp",
+          "src": "/images/kinloch-retreat/11-bbc1e8bf.webp",
+          "srcSmall": "/images/kinloch-retreat/11-bbc1e8bf-1200.webp",
           "width": 2200,
           "height": 1467,
-          "alt": "Kinloch Retreat — interior",
+          "alt": "Kinloch Retreat — from the kitchen through to the living room",
           "group": "interior"
         }
       ]
@@ -1234,140 +1241,140 @@
     "services": {
       "images": [
         {
-          "src": "/images/services/01.webp",
-          "srcSmall": "/images/services/01-1200.webp",
-          "width": 2400,
-          "height": 1797,
-          "alt": "Oak Leaf Abode — exterior"
+          "src": "/images/services/01-f9db9db5.webp",
+          "srcSmall": "/images/services/01-f9db9db5-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Hawk Ridge — aerial view of the home and pool on the ridgeline"
         },
         {
-          "src": "/images/services/02.webp",
-          "srcSmall": "/images/services/02-1200.webp",
+          "src": "/images/services/02-fd9c4a9d.webp",
+          "srcSmall": "/images/services/02-fd9c4a9d-1200.webp",
           "width": 2048,
           "height": 1366,
-          "alt": "The Bridge House — interior"
+          "alt": "The Bridge House — living area with leather sofas, timber-lined ceiling and floor-to-ceiling glazing to the golf course"
         },
         {
-          "src": "/images/services/03.webp",
-          "srcSmall": "/images/services/03-1200.webp",
+          "src": "/images/services/03-b4e0aeb9.webp",
+          "srcSmall": "/images/services/03-b4e0aeb9-1200.webp",
           "width": 2200,
           "height": 1467,
-          "alt": "Kinloch Retreat — interior"
+          "alt": "Kinloch Retreat — kitchen with a dark island bench and views out through the glazing"
         }
       ]
     },
     "the-boathouse": {
       "images": [
         {
-          "src": "/images/the-boathouse/01.webp",
-          "srcSmall": "/images/the-boathouse/01-1200.webp",
+          "src": "/images/the-boathouse/01-3f55931f.webp",
+          "srcSmall": "/images/the-boathouse/01-3f55931f-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "The Boathouse — exterior",
+          "alt": "The Boathouse — twin gable ends and wide steps up from the lakefront lawn",
           "group": "exterior"
         },
         {
-          "src": "/images/the-boathouse/02.webp",
-          "srcSmall": "/images/the-boathouse/02-1200.webp",
+          "src": "/images/the-boathouse/02-145899cd.webp",
+          "srcSmall": "/images/the-boathouse/02-145899cd-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "The Boathouse — exterior",
+          "alt": "The Boathouse — deck dining under architectural beams framing the lake view",
           "group": "exterior"
         },
         {
-          "src": "/images/the-boathouse/03.webp",
-          "srcSmall": "/images/the-boathouse/03-1200.webp",
+          "src": "/images/the-boathouse/04-27e3dc2b.webp",
+          "srcSmall": "/images/the-boathouse/04-27e3dc2b-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "The Boathouse — exterior",
+          "alt": "The Boathouse — aerial view of the gables and deck beside Lake Taupō",
           "group": "exterior"
         },
         {
-          "src": "/images/the-boathouse/04.webp",
-          "srcSmall": "/images/the-boathouse/04-1200.webp",
+          "src": "/images/the-boathouse/05-711a6fe0.webp",
+          "srcSmall": "/images/the-boathouse/05-711a6fe0-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "The Boathouse — exterior",
+          "alt": "The Boathouse — board-and-batten gable, deck and boulder-edged lawn",
           "group": "exterior"
         },
         {
-          "src": "/images/the-boathouse/05.webp",
-          "srcSmall": "/images/the-boathouse/05-1200.webp",
-          "width": 2356,
-          "height": 1056,
-          "alt": "The Boathouse — exterior",
-          "group": "exterior"
-        },
-        {
-          "src": "/images/the-boathouse/06.webp",
-          "srcSmall": "/images/the-boathouse/06-1200.webp",
+          "src": "/images/the-boathouse/06-eea63f7a.webp",
+          "srcSmall": "/images/the-boathouse/06-eea63f7a-1200.webp",
           "width": 1026,
           "height": 460,
-          "alt": "The Boathouse — exterior",
+          "alt": "The Boathouse — twin gables with stacking doors open to the deck",
           "group": "exterior"
         },
         {
-          "src": "/images/the-boathouse/07.webp",
-          "srcSmall": "/images/the-boathouse/07-1200.webp",
+          "src": "/images/the-boathouse/07-77135789.webp",
+          "srcSmall": "/images/the-boathouse/07-77135789-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "The Boathouse — exterior",
+          "alt": "The Boathouse — side view of the gables, deck and lake",
           "group": "exterior"
         },
         {
-          "src": "/images/the-boathouse/08.webp",
-          "srcSmall": "/images/the-boathouse/08-1200.webp",
+          "src": "/images/the-boathouse/08-91716f1d.webp",
+          "srcSmall": "/images/the-boathouse/08-91716f1d-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "The Boathouse — interior",
+          "alt": "The Boathouse — kitchen-dining hub opening to the rear deck and hot tub",
           "group": "interior"
         },
         {
-          "src": "/images/the-boathouse/09.webp",
-          "srcSmall": "/images/the-boathouse/09-1200.webp",
+          "src": "/images/the-boathouse/09-4aed88a6.webp",
+          "srcSmall": "/images/the-boathouse/09-4aed88a6-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "The Boathouse — interior",
+          "alt": "The Boathouse — kitchen island with tiled floors and the dining table",
           "group": "interior"
         },
         {
-          "src": "/images/the-boathouse/10.webp",
-          "srcSmall": "/images/the-boathouse/10-1200.webp",
+          "src": "/images/the-boathouse/10-8c09ea02.webp",
+          "srcSmall": "/images/the-boathouse/10-8c09ea02-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "The Boathouse — interior",
+          "alt": "The Boathouse — stainless steel appliances and a long kitchen bench",
           "group": "interior"
         },
         {
-          "src": "/images/the-boathouse/11.webp",
-          "srcSmall": "/images/the-boathouse/11-1200.webp",
+          "src": "/images/the-boathouse/03-6967812a.webp",
+          "srcSmall": "/images/the-boathouse/03-6967812a-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "The Boathouse — interior",
+          "alt": "The Boathouse — kitchen with lake views through the window",
           "group": "interior"
         },
         {
-          "src": "/images/the-boathouse/12.webp",
-          "srcSmall": "/images/the-boathouse/12-1200.webp",
+          "src": "/images/the-boathouse/11-4e6edd8d.webp",
+          "srcSmall": "/images/the-boathouse/11-4e6edd8d-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "The Boathouse — interior",
+          "alt": "The Boathouse — lake-facing master bedroom",
           "group": "interior"
         },
         {
-          "src": "/images/the-boathouse/13.webp",
-          "srcSmall": "/images/the-boathouse/13-1200.webp",
+          "src": "/images/the-boathouse/12-055949e7.webp",
+          "srcSmall": "/images/the-boathouse/12-055949e7-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "The Boathouse — interior",
+          "alt": "The Boathouse — lounge with stacking doors to the lake",
           "group": "interior"
         },
         {
-          "src": "/images/the-boathouse/14.webp",
-          "srcSmall": "/images/the-boathouse/14-1200.webp",
+          "src": "/images/the-boathouse/13-a55eea31.webp",
+          "srcSmall": "/images/the-boathouse/13-a55eea31-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "The Boathouse — interior",
+          "alt": "The Boathouse — ensuite with a vessel basin and walk-in shower",
+          "group": "interior"
+        },
+        {
+          "src": "/images/the-boathouse/14-44c482ae.webp",
+          "srcSmall": "/images/the-boathouse/14-44c482ae-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "The Boathouse — ensuite vanity and glass shower",
           "group": "interior"
         }
       ]
@@ -1375,179 +1382,179 @@
     "wild-at-heart": {
       "images": [
         {
-          "src": "/images/wild-at-heart/01.webp",
-          "srcSmall": "/images/wild-at-heart/01-1200.webp",
+          "src": "/images/wild-at-heart/01-17e31c21.webp",
+          "srcSmall": "/images/wild-at-heart/01-17e31c21-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Wild at Heart — exterior",
+          "alt": "Wild at Heart — dark-clad home with stone details across a wide lawn",
           "group": "exterior"
         },
         {
-          "src": "/images/wild-at-heart/02.webp",
-          "srcSmall": "/images/wild-at-heart/02-1200.webp",
+          "src": "/images/wild-at-heart/02-88727c1f.webp",
+          "srcSmall": "/images/wild-at-heart/02-88727c1f-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Wild at Heart — exterior",
+          "alt": "Wild at Heart — outdoor room with a stone fireplace under a louvre roof",
           "group": "exterior"
         },
         {
-          "src": "/images/wild-at-heart/03.webp",
-          "srcSmall": "/images/wild-at-heart/03-1200.webp",
+          "src": "/images/wild-at-heart/04-00911b12.webp",
+          "srcSmall": "/images/wild-at-heart/04-00911b12-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Wild at Heart — exterior",
+          "alt": "Wild at Heart — driveway approach with stone, boulders and the garage",
           "group": "exterior"
         },
         {
-          "src": "/images/wild-at-heart/04.webp",
-          "srcSmall": "/images/wild-at-heart/04-1200.webp",
+          "src": "/images/wild-at-heart/05-8cc9e075.webp",
+          "srcSmall": "/images/wild-at-heart/05-8cc9e075-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — stone fireplace and outdoor seating looking out to the view",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/wild-at-heart/06-78363533.webp",
+          "srcSmall": "/images/wild-at-heart/06-78363533-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — rear of the home with lawn and boulder garden",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/wild-at-heart/07-92606d53.webp",
+          "srcSmall": "/images/wild-at-heart/07-92606d53-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — view from the side of the house over rolling countryside",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/wild-at-heart/08-0d26b56c.webp",
+          "srcSmall": "/images/wild-at-heart/08-0d26b56c-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — stone and dark cladding with large glazing",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/wild-at-heart/09-95e77576.webp",
+          "srcSmall": "/images/wild-at-heart/09-95e77576-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Wild at Heart — exterior",
-          "group": "exterior"
+          "alt": "Wild at Heart — vessel basin on a granite vanity",
+          "group": "interior"
         },
         {
-          "src": "/images/wild-at-heart/05.webp",
-          "srcSmall": "/images/wild-at-heart/05-1200.webp",
+          "src": "/images/wild-at-heart/10-6fe82dc0.webp",
+          "srcSmall": "/images/wild-at-heart/10-6fe82dc0-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Wild at Heart — exterior",
-          "group": "exterior"
+          "alt": "Wild at Heart — living room with a cedar screen, timber light fixture and countryside views",
+          "group": "interior"
         },
         {
-          "src": "/images/wild-at-heart/06.webp",
-          "srcSmall": "/images/wild-at-heart/06-1200.webp",
+          "src": "/images/wild-at-heart/11-a1d61867.webp",
+          "srcSmall": "/images/wild-at-heart/11-a1d61867-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Wild at Heart — exterior",
-          "group": "exterior"
+          "alt": "Wild at Heart — hallway with a black sliding door, looking into the bathroom",
+          "group": "interior"
         },
         {
-          "src": "/images/wild-at-heart/07.webp",
-          "srcSmall": "/images/wild-at-heart/07-1200.webp",
+          "src": "/images/wild-at-heart/12-0acd6619.webp",
+          "srcSmall": "/images/wild-at-heart/12-0acd6619-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Wild at Heart — exterior",
-          "group": "exterior"
+          "alt": "Wild at Heart — walk-in shower with large-format stone-look tiles",
+          "group": "interior"
         },
         {
-          "src": "/images/wild-at-heart/08.webp",
-          "srcSmall": "/images/wild-at-heart/08-1200.webp",
+          "src": "/images/wild-at-heart/13-a7a5ba48.webp",
+          "srcSmall": "/images/wild-at-heart/13-a7a5ba48-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Wild at Heart — exterior",
-          "group": "exterior"
+          "alt": "Wild at Heart — entry with cedar wall panelling and a cowhide rug",
+          "group": "interior"
         },
         {
-          "src": "/images/wild-at-heart/09.webp",
-          "srcSmall": "/images/wild-at-heart/09-1200.webp",
+          "src": "/images/wild-at-heart/14-af506205.webp",
+          "srcSmall": "/images/wild-at-heart/14-af506205-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — black kitchen with a granite island and clerestory window",
+          "group": "interior"
+        },
+        {
+          "src": "/images/wild-at-heart/03-553c84d6.webp",
+          "srcSmall": "/images/wild-at-heart/03-553c84d6-1200.webp",
           "width": 2356,
           "height": 1056,
-          "alt": "Wild at Heart — interior",
+          "alt": "Wild at Heart — black kitchen with a gold-veined granite bench and bar stools",
           "group": "interior"
         },
         {
-          "src": "/images/wild-at-heart/10.webp",
-          "srcSmall": "/images/wild-at-heart/10-1200.webp",
+          "src": "/images/wild-at-heart/15-153275a0.webp",
+          "srcSmall": "/images/wild-at-heart/15-153275a0-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Wild at Heart — interior",
+          "alt": "Wild at Heart — laundry with timber-framed glazing",
           "group": "interior"
         },
         {
-          "src": "/images/wild-at-heart/11.webp",
-          "srcSmall": "/images/wild-at-heart/11-1200.webp",
+          "src": "/images/wild-at-heart/16-3372141b.webp",
+          "srcSmall": "/images/wild-at-heart/16-3372141b-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Wild at Heart — interior",
+          "alt": "Wild at Heart — cedar battens screening the lounge from the entry",
           "group": "interior"
         },
         {
-          "src": "/images/wild-at-heart/12.webp",
-          "srcSmall": "/images/wild-at-heart/12-1200.webp",
+          "src": "/images/wild-at-heart/17-f672100c.webp",
+          "srcSmall": "/images/wild-at-heart/17-f672100c-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Wild at Heart — interior",
+          "alt": "Wild at Heart — living room with large timber-framed sliders to the view",
           "group": "interior"
         },
         {
-          "src": "/images/wild-at-heart/13.webp",
-          "srcSmall": "/images/wild-at-heart/13-1200.webp",
+          "src": "/images/wild-at-heart/18-c4d03dcc.webp",
+          "srcSmall": "/images/wild-at-heart/18-c4d03dcc-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Wild at Heart — interior",
+          "alt": "Wild at Heart — granite vanity looking out to the countryside",
           "group": "interior"
         },
         {
-          "src": "/images/wild-at-heart/14.webp",
-          "srcSmall": "/images/wild-at-heart/14-1200.webp",
+          "src": "/images/wild-at-heart/19-7a2590b4.webp",
+          "srcSmall": "/images/wild-at-heart/19-7a2590b4-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Wild at Heart — interior",
+          "alt": "Wild at Heart — black kitchen and granite island bench under clerestory windows",
           "group": "interior"
         },
         {
-          "src": "/images/wild-at-heart/15.webp",
-          "srcSmall": "/images/wild-at-heart/15-1200.webp",
+          "src": "/images/wild-at-heart/20-3646d997.webp",
+          "srcSmall": "/images/wild-at-heart/20-3646d997-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Wild at Heart — interior",
+          "alt": "Wild at Heart — kitchen and dining with a custom timber light fixture",
           "group": "interior"
         },
         {
-          "src": "/images/wild-at-heart/16.webp",
-          "srcSmall": "/images/wild-at-heart/16-1200.webp",
+          "src": "/images/wild-at-heart/21-5d442115.webp",
+          "srcSmall": "/images/wild-at-heart/21-5d442115-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Wild at Heart — interior",
+          "alt": "Wild at Heart — bedroom with timber-framed doors to the countryside",
           "group": "interior"
         },
         {
-          "src": "/images/wild-at-heart/17.webp",
-          "srcSmall": "/images/wild-at-heart/17-1200.webp",
+          "src": "/images/wild-at-heart/22-dfe7c224.webp",
+          "srcSmall": "/images/wild-at-heart/22-dfe7c224-1200.webp",
           "width": 1500,
           "height": 672,
-          "alt": "Wild at Heart — interior",
-          "group": "interior"
-        },
-        {
-          "src": "/images/wild-at-heart/18.webp",
-          "srcSmall": "/images/wild-at-heart/18-1200.webp",
-          "width": 1500,
-          "height": 672,
-          "alt": "Wild at Heart — interior",
-          "group": "interior"
-        },
-        {
-          "src": "/images/wild-at-heart/19.webp",
-          "srcSmall": "/images/wild-at-heart/19-1200.webp",
-          "width": 1500,
-          "height": 672,
-          "alt": "Wild at Heart — interior",
-          "group": "interior"
-        },
-        {
-          "src": "/images/wild-at-heart/20.webp",
-          "srcSmall": "/images/wild-at-heart/20-1200.webp",
-          "width": 1500,
-          "height": 672,
-          "alt": "Wild at Heart — interior",
-          "group": "interior"
-        },
-        {
-          "src": "/images/wild-at-heart/21.webp",
-          "srcSmall": "/images/wild-at-heart/21-1200.webp",
-          "width": 1500,
-          "height": 672,
-          "alt": "Wild at Heart — interior",
-          "group": "interior"
-        },
-        {
-          "src": "/images/wild-at-heart/22.webp",
-          "srcSmall": "/images/wild-at-heart/22-1200.webp",
-          "width": 1500,
-          "height": 672,
-          "alt": "Wild at Heart — interior",
+          "alt": "Wild at Heart — dining table under a custom cedar light fixture",
           "group": "interior"
         }
       ]

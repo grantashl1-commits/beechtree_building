@@ -34,12 +34,14 @@ function ProjectView({ slug }: { slug: string }) {
   // Exterior / Interior galleries (the cover photo is the hero, so it's not repeated).
   // With no photos yet, three placeholders preview the layout.
   const rest = project.images.slice(1)
-  const galleries: { title: string; images: (SiteImage | undefined)[] }[] = rest.length
-    ? [
-        { title: "Exterior", images: rest.filter((img) => (img.group ?? "exterior") === "exterior") },
-        { title: "Interior", images: rest.filter((img) => img.group === "interior") },
-      ].filter((g) => g.images.length)
-    : [{ title: "Gallery", images: [undefined, undefined, undefined] }]
+  const galleries = (
+    rest.length
+      ? [
+          { title: "Exterior", images: rest.filter((img) => (img.group ?? "exterior") === "exterior") },
+          { title: "Interior", images: rest.filter((img) => img.group === "interior") },
+        ].filter((g) => g.images.length)
+      : [{ title: "Gallery", images: [undefined, undefined, undefined] }]
+  ).map((g: { title: string; images: (SiteImage | undefined)[] }) => ({ ...g, wide: galleryLayout(g.images) }))
   const lightboxImages = rest
 
   useGSAP(
@@ -198,7 +200,7 @@ function ProjectView({ slug }: { slug: string }) {
           </div>
           <div className="grid gap-5 md:grid-cols-2">
             {gallery.images.map((img, i) => {
-              const wide = i % 3 === 0
+              const wide = gallery.wide[i]
               return (
                 <button
                   key={img?.src ?? i}
@@ -288,4 +290,19 @@ function Lightbox({ images, index, title, onChange }: { images: SiteImage[]; ind
       </DialogContent>
     </Dialog>
   )
+}
+
+/**
+ * Which gallery photos span the full width (16:9). Every third photo does, as long as it's a
+ * landscape shot; portrait photos always stay tall (4:5) so they're never cropped to a strip.
+ * Wide photos only start a new row, so the two-column grid never gets gaps mid-gallery.
+ */
+function galleryLayout(images: (SiteImage | undefined)[]) {
+  let tallSinceWide = 2
+  return images.map((img) => {
+    const landscape = !img?.width || !img.height || img.width >= img.height
+    const wide = landscape && tallSinceWide >= 2 && tallSinceWide % 2 === 0
+    tallSinceWide = wide ? 0 : tallSinceWide + 1
+    return wide
+  })
 }

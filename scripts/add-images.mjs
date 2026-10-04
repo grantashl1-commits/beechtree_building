@@ -14,6 +14,7 @@
  *                                   `npm run images` run (add --force to really redo a folder).
  *   npm run images -- --check       change nothing; verify media.json against the files on disk,
  *                                   list stray files and photos still missing alt text.
+ *   npm run images -- --rehash      give older photos (named 01.webp…) content-hashed names too.
  *
  * Safety: every file is validated and converted in memory BEFORE anything is deleted, so a bad file
  * aborts the run with nothing changed. Output files get a content hash in their name
@@ -44,6 +45,7 @@ const flags = new Set(process.argv.slice(2))
 const REPLACE = flags.has("--replace")
 const FORCE = flags.has("--force")
 const CHECK = flags.has("--check")
+const REHASH = flags.has("--rehash")
 
 const rel = (p) => path.relative(ROOT, p)
 const naturalSort = (a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" })
@@ -55,6 +57,10 @@ const projectSlugs = [...(await fs.readFile(PROJECTS, "utf8")).matchAll(/^\s*slu
 const knownSlugs = [...SITE_SLUGS, ...projectSlugs]
 
 if (CHECK) process.exit((await check({ strict: true })) ? 0 : 1)
+if (REHASH) {
+  await rehash()
+  process.exit((await check({ strict: false })) ? 0 : 1)
+}
 
 /* ───────────── 1. Scan (no changes) ───────────── */
 
@@ -214,6 +220,29 @@ async function writeManifest() {
   const tmp = `${MANIFEST}.tmp`
   await fs.writeFile(tmp, JSON.stringify(manifest, null, 2) + "\n")
   await fs.rename(tmp, MANIFEST)
+}
+
+/** Renames registered photos without a content hash (e.g. 01.webp) to NN-<hash>.webp, updating media.json. */
+async function rehash() {
+  let renamed = 0
+  for (const [slug, page] of Object.entries(manifest.pages ?? {})) {
+    for (const img of page.images ?? []) {
+      const name = path.basename(img.src, ".webp")
+      if (!/^\d{2,}$/.test(name) || !img.src.startsWith(`/images/${slug}/`)) continue
+      const large = path.join(ROOT, "public", img.src)
+      const hash = crypto.createHash("sha1").update(await fs.readFile(large)).digest("hex").slice(0, 8)
+      const next = `${name}-${hash}`
+      await fs.rename(large, path.join(IMAGES, slug, `${next}.webp`))
+      img.src = `/images/${slug}/${next}.webp`
+      if (img.srcSmall) {
+        await fs.rename(path.join(ROOT, "public", img.srcSmall), path.join(IMAGES, slug, `${next}-1200.webp`))
+        img.srcSmall = `/images/${slug}/${next}-1200.webp`
+      }
+      renamed++
+    }
+  }
+  await writeManifest()
+  console.log(`✓ Renamed ${renamed} photo(s) to content-hashed names.`)
 }
 
 /** Verifies media.json ↔ files on disk. With `strict`, empty alt text also fails. */
