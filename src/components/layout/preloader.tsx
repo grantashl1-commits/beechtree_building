@@ -59,7 +59,7 @@ export function Preloader() {
           <span>{company.coordinates}</span>
         </div>
         <div data-pl-logo className="flex justify-center">
-          <Logo tone="light" className="h-14 md:h-16" />
+          <Logo tone="light" className="h-20 md:h-28" />
         </div>
         <div className="space-y-3">
           <div className="flex items-end justify-between">

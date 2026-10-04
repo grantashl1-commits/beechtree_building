@@ -55,7 +55,7 @@ export function SiteFooter() {
       </div>
 
       <div className="container-site flex flex-wrap items-center justify-between gap-4 border-t border-white/10 py-6 text-xs text-limestone/50">
-        <Logo tone="light" className="h-7" />
+        <Logo tone="light" className="h-10" />
         <p>{company.guarantee}</p>
         <p>
           © {YEAR} {company.legalName}

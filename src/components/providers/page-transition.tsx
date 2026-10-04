@@ -92,7 +92,7 @@ export function PageTransitionProvider({ children }: { children: ReactNode }) {
         className="invisible fixed inset-0 z-[70] flex flex-col items-center justify-center gap-6 bg-ink text-limestone"
       >
         <div data-curtain-content className="flex flex-col items-center gap-5">
-          <Logo tone="light" className="h-10" />
+          <Logo tone="light" className="h-16 md:h-20" />
           {label && <span className="display text-5xl italic md:text-7xl">{label}</span>}
         </div>
       </div>
