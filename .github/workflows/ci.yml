@@ -1,0 +1,21 @@
+name: CI
+
+# Every change — including ones made by Claude, Codex or the GitHub web editor —
+# must typecheck and build before it can be merged into main.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build

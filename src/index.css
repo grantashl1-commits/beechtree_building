@@ -1,0 +1,206 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "@fontsource/instrument-serif/latin-400.css";
+@import "@fontsource/instrument-serif/latin-400-italic.css";
+@import "@fontsource-variable/inter-tight/wght.css";
+@import "@fontsource-variable/jetbrains-mono/wght.css";
+
+/*
+ * ─────────────────────────────────────────────────────────────────────────────
+ *  BRAND PALETTE — the only place colours are defined.
+ *  To re-skin the site (e.g. from a moodboard image), change these values.
+ *  Everything else (shadcn components, sections, the build-story drawing)
+ *  reads from these tokens.
+ * ─────────────────────────────────────────────────────────────────────────────
+ */
+:root {
+  --brand-limestone: #f2eee7; /* page background — warm plaster */
+  --brand-paper: #faf8f4; /* raised surfaces */
+  --brand-ink: #171513; /* charred timber — primary text & dark sections */
+  --brand-charcoal: #2a2724; /* secondary dark surface */
+  --brand-stone: #6b655d; /* muted text (AA on limestone) */
+  --brand-line: #d9d2c6; /* hairlines & borders */
+  --brand-beech: #a86b3c; /* beech timber accent */
+  --brand-beech-deep: #8a5530; /* accent for small text on light */
+  --brand-moss: #3d4636; /* native bush green */
+  --brand-lake: #314a52; /* Lake Taupō at dusk */
+  --brand-brass: #c9a063; /* warm highlight on dark */
+  --brand-glow: #f5c27a; /* window light at handover */
+
+  /* shadcn/ui semantic tokens mapped onto the brand */
+  --radius: 0.375rem;
+  --background: var(--brand-limestone);
+  --foreground: var(--brand-ink);
+  --card: var(--brand-paper);
+  --card-foreground: var(--brand-ink);
+  --popover: var(--brand-paper);
+  --popover-foreground: var(--brand-ink);
+  --primary: var(--brand-ink);
+  --primary-foreground: var(--brand-limestone);
+  --secondary: #e7e1d7;
+  --secondary-foreground: var(--brand-ink);
+  --muted: #e7e1d7;
+  --muted-foreground: var(--brand-stone);
+  --accent: #e7e1d7;
+  --accent-foreground: var(--brand-ink);
+  --destructive: #b42318;
+  --border: var(--brand-line);
+  --input: #cfc6b8;
+  --ring: var(--brand-beech);
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-expo: cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-limestone: var(--brand-limestone);
+  --color-paper: var(--brand-paper);
+  --color-ink: var(--brand-ink);
+  --color-charcoal: var(--brand-charcoal);
+  --color-stone: var(--brand-stone);
+  --color-line: var(--brand-line);
+  --color-beech: var(--brand-beech);
+  --color-beech-deep: var(--brand-beech-deep);
+  --color-moss: var(--brand-moss);
+  --color-lake: var(--brand-lake);
+  --color-brass: var(--brand-brass);
+  --color-glow: var(--brand-glow);
+
+  --font-sans: "Inter Tight Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Instrument Serif", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
+
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 4px);
+  --radius-xl: calc(var(--radius) + 8px);
+
+  --ease-out-expo: var(--ease-out-expo);
+  --ease-in-out-expo: var(--ease-in-out-expo);
+
+  --animate-marquee: marquee var(--marquee-duration, 40s) linear infinite;
+  @keyframes marquee {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-feature-settings: "ss01", "cv11";
+  }
+  ::selection {
+    background: var(--brand-beech);
+    color: var(--brand-paper);
+  }
+  a,
+  button,
+  [role="button"],
+  summary,
+  label[for] {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 2px solid var(--brand-beech);
+    outline-offset: 3px;
+  }
+  img {
+    user-select: none;
+  }
+}
+
+/* Lenis smooth scroll */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: clip;
+}
+
+@layer components {
+  /* Small technical label — the "blueprint annotation" voice of the brand */
+  .eyebrow {
+    @apply font-mono text-[0.6875rem] font-medium tracking-[0.18em] uppercase;
+  }
+  /* Display headline */
+  .display {
+    @apply font-serif leading-[0.92] font-normal tracking-[-0.02em];
+  }
+  .container-site {
+    @apply mx-auto w-full max-w-[1600px] px-5 sm:px-8 lg:px-12;
+  }
+  /* Animated underline for text links */
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.6s var(--ease-out-expo);
+  }
+  .link-underline:hover,
+  .link-underline:focus-visible {
+    background-size: 100% 1px;
+    background-position: 0% 100%;
+  }
+}
+
+/* Paper grain over the whole site for a tactile, printed feel */
+.grain::after {
+  content: "";
+  position: fixed;
+  inset: -50%;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.07;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.55 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+/* SplitText line masks — a little bottom room so serif descenders aren't clipped */
+.split-line-inner-mask {
+  padding-bottom: 0.16em;
+  margin-bottom: -0.16em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
