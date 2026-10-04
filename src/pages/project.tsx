@@ -267,7 +267,7 @@ function Lightbox({ images, index, title, onChange }: { images: SiteImage[]; ind
         <DialogTitle className="sr-only">{title}</DialogTitle>
         <DialogDescription className="sr-only">Photo {index !== null ? index + 1 : 0} of {images.length}</DialogDescription>
         {current && (
-          <img src={current.src} alt={current.alt ?? title} className="max-h-[86svh] w-full rounded-sm object-contain" />
+          <img src={current.src} alt={current.alt || title} className="max-h-[86svh] w-full rounded-sm object-contain" />
         )}
         <div className="flex items-center justify-between text-limestone">
           <span className="eyebrow">

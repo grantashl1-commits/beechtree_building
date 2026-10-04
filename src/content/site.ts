@@ -13,7 +13,8 @@ export const company = {
   description:
     "Beechtree Building is an award-winning Registered Master Builder crafting architecturally designed new homes, additions and renovations across Taupō and the Central Plateau.",
   director: "Simon Dumble",
-  team: "Simon & Kylie Dumble",
+  // VERIFY: Kylie's surname and role — the current site only ever says "Simon and Kylie".
+  team: "Simon & Kylie",
   phone: "022 192 1197",
   phoneHref: "tel:+64221921197",
   email: "simon@beechtreebuilding.co.nz",
@@ -152,7 +153,7 @@ export const architectQuotes = [
     firm: "Jackie Robinson Architecture",
     author: "Jackie Robinson",
     projects: ["wild-at-heart", "hawk-ridge"],
-    pull: "Commitment, enthusiasm, great communication and high ethics are the forefront of who Beechtree Building are.",
+    pull: "Simon and Kylie manage a very professional business, delivering an extremely high standard of build.",
     paragraphs: [
       "Simon and I have worked on many projects together over time. Engaging with clients as a collective team to work through the processes of their unique projects, from the first client meeting through the Concept Design stage, on to Working Drawings and through the Building Consent process.",
       "Many of our clients are unfamiliar with the process of building a “New Home” and find the collaborative approach reassuring and appealing. It is our commitment to provide a cooperative and rewarding experience for clients, as this is one of the greatest journeys they may take.",

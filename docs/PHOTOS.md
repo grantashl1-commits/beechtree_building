@@ -5,13 +5,14 @@ the right folder, run one command, and the site picks them up. You never edit co
 
 ```
 public/images/
-├── home/                     first photo = home page hero (wide landscape, the best "wow" shot)
-├── about/                    first photo = About page feature image (portrait crops best)
-├── services/                 01 = New Homes · 02 = Additions · 03 = Renovations
-├── craft/                    close-up detail shots (doors, joinery, cladding); used as fallbacks
+├── home/        01 = home page hero (wide landscape, the best "wow" shot)
+│                02 = full-width background behind "A square corner and a straight wall" (darkened)
+├── about/       01 = About page image (shown tall, 4:5)
+├── services/    01 = New Homes · 02 = Additions · 03 = Renovations
+├── craft/       01 = optional close-up detail; only shown where home/02, about/ or services/02 is missing
 ├── the-bridge-house/
-│   ├── exterior/             → "Exterior" gallery; the FIRST exterior photo is the project's cover
-│   └── interior/             → "Interior" gallery
+│   ├── exterior/   → "Exterior" gallery; the FIRST exterior photo is the project's cover
+│   └── interior/   → "Interior" gallery
 ├── whareroa-hideaway/        (same exterior/ + interior/ structure for every project)
 ├── kinloch-retreat/
 ├── oak-leaf-abode/
@@ -34,27 +35,39 @@ public/images/
 | The Boathouse | `the-boathouse` | /the-boathouse |
 | Clad to Meet You | `clad-to-meet-you` | /clad-to-meet-you |
 
+## Where a project's photos appear
+
+- **Cover** (the first exterior photo): shown on the project page hero, its card on /projects, the home page "Selected works" reel and the "Next project" banner. The covers of Whareroa Hideaway and Kinloch Retreat also appear as small photo "pills" in the home page's opening statement. The cover isn't repeated in the Exterior gallery.
+- **Galleries:** in each gallery, photos 1, 4, 7… are shown full-width (16:9) and the rest are cropped tall (4:5). Put landscape shots in the wide positions.
+
 ## Adding photos
 
-1. Copy the original photos into the folders above. Name them `01-….jpg`, `02-….jpg` and so on, so the order is the order you want. Within a project, the first exterior photo becomes its cover.
-2. Run:
+1. Copy the original photos into the folders above:
+   - Name them `01-short-description.jpg`, `02-….jpg` and so on; the number sets the order.
+   - Keep `exterior/` and `interior/` flat, with no sub-folders.
+   - Convert iPhone `.HEIC` photos to JPEG first.
+2. Run one of:
    ```bash
-   npm run images              # add to any photos already there
-   npm run images -- --replace # replace what's there; use this to swap the interim images
+   npm run images              # add new photos after any already there
+   npm run images -- --replace # first time only: swap the interim images for the originals
+   npm run images -- --check   # change nothing; verify everything is registered and has alt text
    ```
-   Each photo is resized to 2400px and 1200px WebP. The original is deleted, and `src/content/media.json` is updated.
-3. Open `src/content/media.json` and give each new photo a short `alt` description, e.g. `"The Bridge House — cedar-lined living room looking over the golf course"`.
+   - The script checks every file before changing anything. If one is bad, it says so and **nothing is changed**.
+   - Each photo becomes optimised 2400px and 1200px WebP files, with a short content hash in the name.
+   - The copied original is deleted, and `src/content/media.json` is updated.
+   - `--replace` won't wipe photos that an earlier run added. Use plain `npm run images` to add more, or add `--force` to deliberately redo a folder.
+3. Open `src/content/media.json` and give each new photo a short `alt` description, e.g. `"The Bridge House — cedar-lined living room looking over the golf course"`. The `original` field shows which file it came from. Then run `npm run images -- --check`.
 4. Run `npm run build`, then check the pages with `npm run dev`.
 
-**Reordering or regrouping later:** edit the order of the entries in `src/content/media.json`, or change an entry's `"group"` between `"exterior"` and `"interior"`.
+**Reordering or regrouping later:** edit the order of the entries in `src/content/media.json`, or change an entry's `"group"` between `"exterior"` and `"interior"`. Don't rename the generated `.webp` files.
 
 ## Photo requirements
 
 - Use the client's own photography only: the photos from their current website, or originals from their photographer.
-- Supply the largest version available. Anything 2400px wide or more is ideal, and phone or web thumbnails will look soft.
-- Choose landscape photos for `home/` and project covers. Choose a portrait photo for `about/`.
+- Supply the largest version available. Anything 2400px wide or more is ideal, and the script warns about anything under 1200px.
+- Choose landscape photos for `home/` and project covers.
 
 ## The interim images
 
 The images in the repo right now were cropped from screenshots of the current website. They're placeholders,
-and `npm run images -- --replace` replaces them as soon as the originals are added.
+and the first `npm run images -- --replace` swaps them out for the originals.

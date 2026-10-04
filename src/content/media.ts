@@ -15,6 +15,8 @@ export type SiteImage = {
   alt?: string
   /** Which gallery the photo belongs to on a project page (matches the old site's Exterior / Interior). */
   group?: "exterior" | "interior"
+  /** The original file this was made from (set by `npm run images`). */
+  original?: string
 }
 
 type Manifest = {

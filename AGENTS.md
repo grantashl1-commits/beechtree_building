@@ -20,13 +20,13 @@ did in plain English, and always leave the site building cleanly.
 | Which photos belong to which page/project (generated) | `src/content/media.json` |
 | Colours (the whole palette) | the `:root` block at the top of `src/index.css` |
 | Photos | `public/images/<slug>/` |
-| Logo | `public/brand/logo.png` (or `.svg`) |
+| Logo | `public/brand/logo.svg` (single-colour; see docs/AGENT-PROMPT-PHOTOS.md step 6) |
 
 ### Recipes
 
 - **Edit wording:** change the string in `src/content/site.ts` or `src/content/projects.ts`. Keep the existing structure and quotes.
 - **Add a project:** copy an existing entry in `src/content/projects.ts`, give it a new unique kebab-case `slug`, fill in the fields. Its photos go in `public/images/<slug>/`.
-- **Add photos:** put the original JPG/PNG files in `public/images/<slug>/`, then run `npm run images`. That converts them to optimised WebP, deletes the originals and registers them in `media.json`. The first photo of a project is its cover. To reorder, reorder the entries in `media.json`.
+- **Add photos:** follow `docs/PHOTOS.md`. Put the original JPG/PNG files in `public/images/<slug>/exterior/` or `/interior/` (or `home/`, `about/`, `services/`), then run `npm run images`. That converts them to optimised WebP, deletes the copies and registers them in `media.json`. Write `alt` text for each new entry, then run `npm run images -- --check`. The first exterior photo of a project is its cover. To reorder, reorder the entries in `media.json`.
 - **Change colours:** edit only the `--brand-*` values in `src/index.css`. Check text stays readable (4.5:1 contrast on its background).
 - **Feature a project on the home page:** set `featured: true` on it.
 
@@ -43,11 +43,11 @@ did in plain English, and always leave the site building cleanly.
 ## Commands
 
 ```bash
-npm install          # first time
+npm ci               # first time (installs exact versions)
 npm run dev          # local preview at http://localhost:5173 (also serves /api)
 npm run build        # typecheck + production build — must pass
 npm run lint         # oxlint
-npm run images       # optimise + register new photos in public/images/<slug>/
+npm run images       # optimise + register new photos (see docs/PHOTOS.md); --check verifies
 npm run scrape       # (one-off) re-import logo, photos and copy from the old website
 ```
 

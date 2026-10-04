@@ -36,3 +36,5 @@ __pycache__/
 
 # Temporary worktrees created by Claude Code agents
 .claude/worktrees/
+Thumbs.db
+desktop.ini
