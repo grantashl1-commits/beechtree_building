@@ -33,3 +33,6 @@ dist-ssr
 
 # Python bytecode (from .claude/skills scripts)
 __pycache__/
+
+# Temporary worktrees created by Claude Code agents
+.claude/worktrees/
