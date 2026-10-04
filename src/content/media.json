@@ -1,6 +1,6 @@
 {
   "$comment": "Maps each page/project slug to its images. Written by `npm run scrape` and `npm run images`; safe to edit by hand (order, alt text, group).",
-  "source": "Screenshots of beechtreebuilding.co.nz supplied by the client (interim — replace with original photo files)",
+  "source": "Original photos supplied by the client (beechtreebuilding.co.nz project galleries)",
   "scrapedAt": null,
   "logo": "/brand/logo.svg",
   "favicon": null,
@@ -9,28 +9,115 @@
       "images": [
         {
           "src": "/images/the-bridge-house/01.webp",
-          "width": 1845,
-          "height": 650,
-          "alt": "The Bridge House — courtyard deck opening to living and bedroom wings",
-          "srcSmall": "/images/the-bridge-house/01-1200.webp"
+          "srcSmall": "/images/the-bridge-house/01-1200.webp",
+          "width": 2048,
+          "height": 1364,
+          "alt": "The Bridge House — exterior",
+          "group": "exterior"
         },
         {
           "src": "/images/the-bridge-house/02.webp",
-          "width": 757,
-          "height": 570,
-          "alt": "The Bridge House — timber-clad exterior above the lake"
+          "srcSmall": "/images/the-bridge-house/02-1200.webp",
+          "width": 2048,
+          "height": 834,
+          "alt": "The Bridge House — exterior",
+          "group": "exterior"
         },
         {
           "src": "/images/the-bridge-house/03.webp",
-          "width": 560,
-          "height": 380,
-          "alt": "The Bridge House — living room through floor-to-ceiling glazing"
+          "srcSmall": "/images/the-bridge-house/03-1200.webp",
+          "width": 1000,
+          "height": 667,
+          "alt": "The Bridge House — exterior",
+          "group": "exterior"
         },
         {
           "src": "/images/the-bridge-house/04.webp",
-          "width": 605,
-          "height": 380,
-          "alt": "The Bridge House — bedroom opening onto the deck"
+          "srcSmall": "/images/the-bridge-house/04-1200.webp",
+          "width": 1000,
+          "height": 667,
+          "alt": "The Bridge House — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/the-bridge-house/05.webp",
+          "srcSmall": "/images/the-bridge-house/05-1200.webp",
+          "width": 1000,
+          "height": 667,
+          "alt": "The Bridge House — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/the-bridge-house/06.webp",
+          "srcSmall": "/images/the-bridge-house/06-1200.webp",
+          "width": 1000,
+          "height": 667,
+          "alt": "The Bridge House — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/the-bridge-house/07.webp",
+          "srcSmall": "/images/the-bridge-house/07-1200.webp",
+          "width": 1000,
+          "height": 667,
+          "alt": "The Bridge House — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/the-bridge-house/08.webp",
+          "srcSmall": "/images/the-bridge-house/08-1200.webp",
+          "width": 1000,
+          "height": 667,
+          "alt": "The Bridge House — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/the-bridge-house/09.webp",
+          "srcSmall": "/images/the-bridge-house/09-1200.webp",
+          "width": 2048,
+          "height": 1366,
+          "alt": "The Bridge House — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/the-bridge-house/10.webp",
+          "srcSmall": "/images/the-bridge-house/10-1200.webp",
+          "width": 1366,
+          "height": 2048,
+          "alt": "The Bridge House — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/the-bridge-house/11.webp",
+          "srcSmall": "/images/the-bridge-house/11-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "The Bridge House — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/the-bridge-house/12.webp",
+          "srcSmall": "/images/the-bridge-house/12-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "The Bridge House — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/the-bridge-house/13.webp",
+          "srcSmall": "/images/the-bridge-house/13-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "The Bridge House — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/the-bridge-house/14.webp",
+          "srcSmall": "/images/the-bridge-house/14-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "The Bridge House — interior",
+          "group": "interior"
         }
       ]
     },
@@ -38,9 +125,235 @@
       "images": [
         {
           "src": "/images/whareroa-hideaway/01.webp",
-          "width": 796,
-          "height": 570,
-          "alt": "Whareroa Hideaway — planted roof, block walls and covered outdoor room"
+          "srcSmall": "/images/whareroa-hideaway/01-1200.webp",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Whareroa Hideaway — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/02.webp",
+          "srcSmall": "/images/whareroa-hideaway/02-1200.webp",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Whareroa Hideaway — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/03.webp",
+          "srcSmall": "/images/whareroa-hideaway/03-1200.webp",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Whareroa Hideaway — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/04.webp",
+          "srcSmall": "/images/whareroa-hideaway/04-1200.webp",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Whareroa Hideaway — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/05.webp",
+          "srcSmall": "/images/whareroa-hideaway/05-1200.webp",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Whareroa Hideaway — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/06.webp",
+          "srcSmall": "/images/whareroa-hideaway/06-1200.webp",
+          "width": 1500,
+          "height": 1125,
+          "alt": "Whareroa Hideaway — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/07.webp",
+          "srcSmall": "/images/whareroa-hideaway/07-1200.webp",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Whareroa Hideaway — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/08.webp",
+          "srcSmall": "/images/whareroa-hideaway/08-1200.webp",
+          "width": 1500,
+          "height": 1125,
+          "alt": "Whareroa Hideaway — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/09.webp",
+          "srcSmall": "/images/whareroa-hideaway/09-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/10.webp",
+          "srcSmall": "/images/whareroa-hideaway/10-1200.webp",
+          "width": 1500,
+          "height": 1125,
+          "alt": "Whareroa Hideaway — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/11.webp",
+          "srcSmall": "/images/whareroa-hideaway/11-1200.webp",
+          "width": 1500,
+          "height": 1125,
+          "alt": "Whareroa Hideaway — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/12.webp",
+          "srcSmall": "/images/whareroa-hideaway/12-1200.webp",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Whareroa Hideaway — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/13.webp",
+          "srcSmall": "/images/whareroa-hideaway/13-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/14.webp",
+          "srcSmall": "/images/whareroa-hideaway/14-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/15.webp",
+          "srcSmall": "/images/whareroa-hideaway/15-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/16.webp",
+          "srcSmall": "/images/whareroa-hideaway/16-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/17.webp",
+          "srcSmall": "/images/whareroa-hideaway/17-1200.webp",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Whareroa Hideaway — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/18.webp",
+          "srcSmall": "/images/whareroa-hideaway/18-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/19.webp",
+          "srcSmall": "/images/whareroa-hideaway/19-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/20.webp",
+          "srcSmall": "/images/whareroa-hideaway/20-1200.webp",
+          "width": 1500,
+          "height": 1125,
+          "alt": "Whareroa Hideaway — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/21.webp",
+          "srcSmall": "/images/whareroa-hideaway/21-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/22.webp",
+          "srcSmall": "/images/whareroa-hideaway/22-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/23.webp",
+          "srcSmall": "/images/whareroa-hideaway/23-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/24.webp",
+          "srcSmall": "/images/whareroa-hideaway/24-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/25.webp",
+          "srcSmall": "/images/whareroa-hideaway/25-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/26.webp",
+          "srcSmall": "/images/whareroa-hideaway/26-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/27.webp",
+          "srcSmall": "/images/whareroa-hideaway/27-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/28.webp",
+          "srcSmall": "/images/whareroa-hideaway/28-1200.webp",
+          "width": 1500,
+          "height": 1125,
+          "alt": "Whareroa Hideaway — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/whareroa-hideaway/29.webp",
+          "srcSmall": "/images/whareroa-hideaway/29-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — interior",
+          "group": "interior"
         }
       ]
     },
@@ -48,9 +361,211 @@
       "images": [
         {
           "src": "/images/oak-leaf-abode/01.webp",
-          "width": 572,
-          "height": 480,
-          "alt": "Oak Leaf Abode — kitchen with vertical timber joinery"
+          "srcSmall": "/images/oak-leaf-abode/01-1200.webp",
+          "width": 2400,
+          "height": 1797,
+          "alt": "Oak Leaf Abode — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/02.webp",
+          "srcSmall": "/images/oak-leaf-abode/02-1200.webp",
+          "width": 2400,
+          "height": 1600,
+          "alt": "Oak Leaf Abode — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/03.webp",
+          "srcSmall": "/images/oak-leaf-abode/03-1200.webp",
+          "width": 2400,
+          "height": 1600,
+          "alt": "Oak Leaf Abode — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/04.webp",
+          "srcSmall": "/images/oak-leaf-abode/04-1200.webp",
+          "width": 2400,
+          "height": 1043,
+          "alt": "Oak Leaf Abode — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/05.webp",
+          "srcSmall": "/images/oak-leaf-abode/05-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/06.webp",
+          "srcSmall": "/images/oak-leaf-abode/06-1200.webp",
+          "width": 1500,
+          "height": 1123,
+          "alt": "Oak Leaf Abode — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/07.webp",
+          "srcSmall": "/images/oak-leaf-abode/07-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/08.webp",
+          "srcSmall": "/images/oak-leaf-abode/08-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/09.webp",
+          "srcSmall": "/images/oak-leaf-abode/09-1200.webp",
+          "width": 2400,
+          "height": 1600,
+          "alt": "Oak Leaf Abode — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/10.webp",
+          "srcSmall": "/images/oak-leaf-abode/10-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/11.webp",
+          "srcSmall": "/images/oak-leaf-abode/11-1200.webp",
+          "width": 1500,
+          "height": 1123,
+          "alt": "Oak Leaf Abode — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/12.webp",
+          "srcSmall": "/images/oak-leaf-abode/12-1200.webp",
+          "width": 2400,
+          "height": 1600,
+          "alt": "Oak Leaf Abode — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/13.webp",
+          "srcSmall": "/images/oak-leaf-abode/13-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/14.webp",
+          "srcSmall": "/images/oak-leaf-abode/14-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/15.webp",
+          "srcSmall": "/images/oak-leaf-abode/15-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/16.webp",
+          "srcSmall": "/images/oak-leaf-abode/16-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/17.webp",
+          "srcSmall": "/images/oak-leaf-abode/17-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/18.webp",
+          "srcSmall": "/images/oak-leaf-abode/18-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/19.webp",
+          "srcSmall": "/images/oak-leaf-abode/19-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/20.webp",
+          "srcSmall": "/images/oak-leaf-abode/20-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/21.webp",
+          "srcSmall": "/images/oak-leaf-abode/21-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/22.webp",
+          "srcSmall": "/images/oak-leaf-abode/22-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/23.webp",
+          "srcSmall": "/images/oak-leaf-abode/23-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/24.webp",
+          "srcSmall": "/images/oak-leaf-abode/24-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/25.webp",
+          "srcSmall": "/images/oak-leaf-abode/25-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/oak-leaf-abode/26.webp",
+          "srcSmall": "/images/oak-leaf-abode/26-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Oak Leaf Abode — interior",
+          "group": "interior"
         }
       ]
     },
@@ -58,9 +573,982 @@
       "images": [
         {
           "src": "/images/craft/01.webp",
-          "width": 897,
-          "height": 583,
-          "alt": "Timber pivot entry door beside vertical battens"
+          "srcSmall": "/images/craft/01-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Timber craftsmanship detail"
+        },
+        {
+          "src": "/images/craft/02.webp",
+          "srcSmall": "/images/craft/02-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Timber interior detail"
+        },
+        {
+          "src": "/images/craft/03.webp",
+          "srcSmall": "/images/craft/03-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Timber joinery detail"
+        },
+        {
+          "src": "/images/craft/04.webp",
+          "srcSmall": "/images/craft/04-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Timber cladding detail"
+        }
+      ]
+    },
+    "about": {
+      "images": [
+        {
+          "src": "/images/about/01.webp",
+          "srcSmall": "/images/about/01-1200.webp",
+          "width": 1500,
+          "height": 2000,
+          "alt": "Whareroa Hideaway — interior"
+        }
+      ]
+    },
+    "clad-to-meet-you": {
+      "images": [
+        {
+          "src": "/images/clad-to-meet-you/01.webp",
+          "srcSmall": "/images/clad-to-meet-you/01-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Clad to Meet You — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/02.webp",
+          "srcSmall": "/images/clad-to-meet-you/02-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Clad to Meet You — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/03.webp",
+          "srcSmall": "/images/clad-to-meet-you/03-1200.webp",
+          "width": 1800,
+          "height": 1202,
+          "alt": "Clad to Meet You — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/04.webp",
+          "srcSmall": "/images/clad-to-meet-you/04-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Clad to Meet You — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/05.webp",
+          "srcSmall": "/images/clad-to-meet-you/05-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Clad to Meet You — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/06.webp",
+          "srcSmall": "/images/clad-to-meet-you/06-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Clad to Meet You — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/07.webp",
+          "srcSmall": "/images/clad-to-meet-you/07-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Clad to Meet You — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/08.webp",
+          "srcSmall": "/images/clad-to-meet-you/08-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Clad to Meet You — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/09.webp",
+          "srcSmall": "/images/clad-to-meet-you/09-1200.webp",
+          "width": 1500,
+          "height": 1003,
+          "alt": "Clad to Meet You — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/10.webp",
+          "srcSmall": "/images/clad-to-meet-you/10-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Clad to Meet You — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/11.webp",
+          "srcSmall": "/images/clad-to-meet-you/11-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Clad to Meet You — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/12.webp",
+          "srcSmall": "/images/clad-to-meet-you/12-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Clad to Meet You — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/13.webp",
+          "srcSmall": "/images/clad-to-meet-you/13-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Clad to Meet You — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/14.webp",
+          "srcSmall": "/images/clad-to-meet-you/14-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Clad to Meet You — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/15.webp",
+          "srcSmall": "/images/clad-to-meet-you/15-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Clad to Meet You — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/16.webp",
+          "srcSmall": "/images/clad-to-meet-you/16-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Clad to Meet You — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/17.webp",
+          "srcSmall": "/images/clad-to-meet-you/17-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Clad to Meet You — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/18.webp",
+          "srcSmall": "/images/clad-to-meet-you/18-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Clad to Meet You — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/19.webp",
+          "srcSmall": "/images/clad-to-meet-you/19-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Clad to Meet You — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/clad-to-meet-you/20.webp",
+          "srcSmall": "/images/clad-to-meet-you/20-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Clad to Meet You — interior",
+          "group": "interior"
+        }
+      ]
+    },
+    "curved-by-the-course": {
+      "images": [
+        {
+          "src": "/images/curved-by-the-course/01.webp",
+          "srcSmall": "/images/curved-by-the-course/01-1200.webp",
+          "width": 2200,
+          "height": 1467,
+          "alt": "Curved by the Course — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/curved-by-the-course/02.webp",
+          "srcSmall": "/images/curved-by-the-course/02-1200.webp",
+          "width": 2200,
+          "height": 1467,
+          "alt": "Curved by the Course — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/curved-by-the-course/03.webp",
+          "srcSmall": "/images/curved-by-the-course/03-1200.webp",
+          "width": 2200,
+          "height": 1468,
+          "alt": "Curved by the Course — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/curved-by-the-course/04.webp",
+          "srcSmall": "/images/curved-by-the-course/04-1200.webp",
+          "width": 2200,
+          "height": 1468,
+          "alt": "Curved by the Course — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/curved-by-the-course/05.webp",
+          "srcSmall": "/images/curved-by-the-course/05-1200.webp",
+          "width": 2200,
+          "height": 1468,
+          "alt": "Curved by the Course — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/curved-by-the-course/06.webp",
+          "srcSmall": "/images/curved-by-the-course/06-1200.webp",
+          "width": 2200,
+          "height": 1648,
+          "alt": "Curved by the Course — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/curved-by-the-course/07.webp",
+          "srcSmall": "/images/curved-by-the-course/07-1200.webp",
+          "width": 2200,
+          "height": 1468,
+          "alt": "Curved by the Course — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/curved-by-the-course/08.webp",
+          "srcSmall": "/images/curved-by-the-course/08-1200.webp",
+          "width": 2200,
+          "height": 1468,
+          "alt": "Curved by the Course — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/curved-by-the-course/09.webp",
+          "srcSmall": "/images/curved-by-the-course/09-1200.webp",
+          "width": 2200,
+          "height": 1467,
+          "alt": "Curved by the Course — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/curved-by-the-course/10.webp",
+          "srcSmall": "/images/curved-by-the-course/10-1200.webp",
+          "width": 2200,
+          "height": 1468,
+          "alt": "Curved by the Course — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/curved-by-the-course/11.webp",
+          "srcSmall": "/images/curved-by-the-course/11-1200.webp",
+          "width": 2200,
+          "height": 1468,
+          "alt": "Curved by the Course — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/curved-by-the-course/12.webp",
+          "srcSmall": "/images/curved-by-the-course/12-1200.webp",
+          "width": 2200,
+          "height": 1467,
+          "alt": "Curved by the Course — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/curved-by-the-course/13.webp",
+          "srcSmall": "/images/curved-by-the-course/13-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Curved by the Course — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/curved-by-the-course/14.webp",
+          "srcSmall": "/images/curved-by-the-course/14-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Curved by the Course — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/curved-by-the-course/15.webp",
+          "srcSmall": "/images/curved-by-the-course/15-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Curved by the Course — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/curved-by-the-course/16.webp",
+          "srcSmall": "/images/curved-by-the-course/16-1200.webp",
+          "width": 1500,
+          "height": 1001,
+          "alt": "Curved by the Course — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/curved-by-the-course/17.webp",
+          "srcSmall": "/images/curved-by-the-course/17-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Curved by the Course — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/curved-by-the-course/18.webp",
+          "srcSmall": "/images/curved-by-the-course/18-1200.webp",
+          "width": 1467,
+          "height": 2200,
+          "alt": "Curved by the Course — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/curved-by-the-course/19.webp",
+          "srcSmall": "/images/curved-by-the-course/19-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Curved by the Course — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/curved-by-the-course/20.webp",
+          "srcSmall": "/images/curved-by-the-course/20-1200.webp",
+          "width": 1467,
+          "height": 2200,
+          "alt": "Curved by the Course — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/curved-by-the-course/21.webp",
+          "srcSmall": "/images/curved-by-the-course/21-1200.webp",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Curved by the Course — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/curved-by-the-course/22.webp",
+          "srcSmall": "/images/curved-by-the-course/22-1200.webp",
+          "width": 1467,
+          "height": 2200,
+          "alt": "Curved by the Course — interior",
+          "group": "interior"
+        }
+      ]
+    },
+    "hawk-ridge": {
+      "images": [
+        {
+          "src": "/images/hawk-ridge/01.webp",
+          "srcSmall": "/images/hawk-ridge/01-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Hawk Ridge — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/hawk-ridge/02.webp",
+          "srcSmall": "/images/hawk-ridge/02-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Hawk Ridge — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/hawk-ridge/03.webp",
+          "srcSmall": "/images/hawk-ridge/03-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Hawk Ridge — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/hawk-ridge/04.webp",
+          "srcSmall": "/images/hawk-ridge/04-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Hawk Ridge — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/hawk-ridge/05.webp",
+          "srcSmall": "/images/hawk-ridge/05-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Hawk Ridge — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/hawk-ridge/06.webp",
+          "srcSmall": "/images/hawk-ridge/06-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Hawk Ridge — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/hawk-ridge/07.webp",
+          "srcSmall": "/images/hawk-ridge/07-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Hawk Ridge — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/hawk-ridge/08.webp",
+          "srcSmall": "/images/hawk-ridge/08-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Hawk Ridge — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/hawk-ridge/09.webp",
+          "srcSmall": "/images/hawk-ridge/09-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Hawk Ridge — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/hawk-ridge/10.webp",
+          "srcSmall": "/images/hawk-ridge/10-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Hawk Ridge — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/hawk-ridge/11.webp",
+          "srcSmall": "/images/hawk-ridge/11-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Hawk Ridge — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/hawk-ridge/12.webp",
+          "srcSmall": "/images/hawk-ridge/12-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Hawk Ridge — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/hawk-ridge/13.webp",
+          "srcSmall": "/images/hawk-ridge/13-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Hawk Ridge — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/hawk-ridge/14.webp",
+          "srcSmall": "/images/hawk-ridge/14-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Hawk Ridge — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/hawk-ridge/15.webp",
+          "srcSmall": "/images/hawk-ridge/15-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Hawk Ridge — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/hawk-ridge/16.webp",
+          "srcSmall": "/images/hawk-ridge/16-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Hawk Ridge — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/hawk-ridge/17.webp",
+          "srcSmall": "/images/hawk-ridge/17-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Hawk Ridge — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/hawk-ridge/18.webp",
+          "srcSmall": "/images/hawk-ridge/18-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Hawk Ridge — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/hawk-ridge/19.webp",
+          "srcSmall": "/images/hawk-ridge/19-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Hawk Ridge — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/hawk-ridge/20.webp",
+          "srcSmall": "/images/hawk-ridge/20-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Hawk Ridge — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/hawk-ridge/21.webp",
+          "srcSmall": "/images/hawk-ridge/21-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Hawk Ridge — interior",
+          "group": "interior"
+        }
+      ]
+    },
+    "home": {
+      "images": [
+        {
+          "src": "/images/home/01.webp",
+          "srcSmall": "/images/home/01-1200.webp",
+          "width": 2048,
+          "height": 834,
+          "alt": "The Bridge House — courtyard deck"
+        }
+      ]
+    },
+    "kinloch-retreat": {
+      "images": [
+        {
+          "src": "/images/kinloch-retreat/01.webp",
+          "srcSmall": "/images/kinloch-retreat/01-1200.webp",
+          "width": 2200,
+          "height": 1467,
+          "alt": "Kinloch Retreat — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/kinloch-retreat/02.webp",
+          "srcSmall": "/images/kinloch-retreat/02-1200.webp",
+          "width": 2200,
+          "height": 1467,
+          "alt": "Kinloch Retreat — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/kinloch-retreat/03.webp",
+          "srcSmall": "/images/kinloch-retreat/03-1200.webp",
+          "width": 2200,
+          "height": 1467,
+          "alt": "Kinloch Retreat — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/kinloch-retreat/04.webp",
+          "srcSmall": "/images/kinloch-retreat/04-1200.webp",
+          "width": 2200,
+          "height": 1467,
+          "alt": "Kinloch Retreat — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/kinloch-retreat/05.webp",
+          "srcSmall": "/images/kinloch-retreat/05-1200.webp",
+          "width": 2200,
+          "height": 1467,
+          "alt": "Kinloch Retreat — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/kinloch-retreat/06.webp",
+          "srcSmall": "/images/kinloch-retreat/06-1200.webp",
+          "width": 2200,
+          "height": 1467,
+          "alt": "Kinloch Retreat — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/kinloch-retreat/07.webp",
+          "srcSmall": "/images/kinloch-retreat/07-1200.webp",
+          "width": 2200,
+          "height": 1467,
+          "alt": "Kinloch Retreat — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/kinloch-retreat/08.webp",
+          "srcSmall": "/images/kinloch-retreat/08-1200.webp",
+          "width": 2200,
+          "height": 1467,
+          "alt": "Kinloch Retreat — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/kinloch-retreat/09.webp",
+          "srcSmall": "/images/kinloch-retreat/09-1200.webp",
+          "width": 2200,
+          "height": 1466,
+          "alt": "Kinloch Retreat — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/kinloch-retreat/10.webp",
+          "srcSmall": "/images/kinloch-retreat/10-1200.webp",
+          "width": 2200,
+          "height": 1467,
+          "alt": "Kinloch Retreat — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/kinloch-retreat/11.webp",
+          "srcSmall": "/images/kinloch-retreat/11-1200.webp",
+          "width": 2200,
+          "height": 1467,
+          "alt": "Kinloch Retreat — interior",
+          "group": "interior"
+        }
+      ]
+    },
+    "services": {
+      "images": [
+        {
+          "src": "/images/services/01.webp",
+          "srcSmall": "/images/services/01-1200.webp",
+          "width": 2400,
+          "height": 1797,
+          "alt": "Oak Leaf Abode — exterior"
+        },
+        {
+          "src": "/images/services/02.webp",
+          "srcSmall": "/images/services/02-1200.webp",
+          "width": 2048,
+          "height": 1366,
+          "alt": "The Bridge House — interior"
+        },
+        {
+          "src": "/images/services/03.webp",
+          "srcSmall": "/images/services/03-1200.webp",
+          "width": 2200,
+          "height": 1467,
+          "alt": "Kinloch Retreat — interior"
+        }
+      ]
+    },
+    "the-boathouse": {
+      "images": [
+        {
+          "src": "/images/the-boathouse/01.webp",
+          "srcSmall": "/images/the-boathouse/01-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "The Boathouse — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/the-boathouse/02.webp",
+          "srcSmall": "/images/the-boathouse/02-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "The Boathouse — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/the-boathouse/03.webp",
+          "srcSmall": "/images/the-boathouse/03-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "The Boathouse — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/the-boathouse/04.webp",
+          "srcSmall": "/images/the-boathouse/04-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "The Boathouse — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/the-boathouse/05.webp",
+          "srcSmall": "/images/the-boathouse/05-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "The Boathouse — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/the-boathouse/06.webp",
+          "srcSmall": "/images/the-boathouse/06-1200.webp",
+          "width": 1026,
+          "height": 460,
+          "alt": "The Boathouse — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/the-boathouse/07.webp",
+          "srcSmall": "/images/the-boathouse/07-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "The Boathouse — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/the-boathouse/08.webp",
+          "srcSmall": "/images/the-boathouse/08-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "The Boathouse — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/the-boathouse/09.webp",
+          "srcSmall": "/images/the-boathouse/09-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "The Boathouse — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/the-boathouse/10.webp",
+          "srcSmall": "/images/the-boathouse/10-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "The Boathouse — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/the-boathouse/11.webp",
+          "srcSmall": "/images/the-boathouse/11-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "The Boathouse — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/the-boathouse/12.webp",
+          "srcSmall": "/images/the-boathouse/12-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "The Boathouse — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/the-boathouse/13.webp",
+          "srcSmall": "/images/the-boathouse/13-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "The Boathouse — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/the-boathouse/14.webp",
+          "srcSmall": "/images/the-boathouse/14-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "The Boathouse — interior",
+          "group": "interior"
+        }
+      ]
+    },
+    "wild-at-heart": {
+      "images": [
+        {
+          "src": "/images/wild-at-heart/01.webp",
+          "srcSmall": "/images/wild-at-heart/01-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Wild at Heart — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/wild-at-heart/02.webp",
+          "srcSmall": "/images/wild-at-heart/02-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Wild at Heart — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/wild-at-heart/03.webp",
+          "srcSmall": "/images/wild-at-heart/03-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Wild at Heart — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/wild-at-heart/04.webp",
+          "srcSmall": "/images/wild-at-heart/04-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Wild at Heart — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/wild-at-heart/05.webp",
+          "srcSmall": "/images/wild-at-heart/05-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/wild-at-heart/06.webp",
+          "srcSmall": "/images/wild-at-heart/06-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/wild-at-heart/07.webp",
+          "srcSmall": "/images/wild-at-heart/07-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/wild-at-heart/08.webp",
+          "srcSmall": "/images/wild-at-heart/08-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — exterior",
+          "group": "exterior"
+        },
+        {
+          "src": "/images/wild-at-heart/09.webp",
+          "srcSmall": "/images/wild-at-heart/09-1200.webp",
+          "width": 2356,
+          "height": 1056,
+          "alt": "Wild at Heart — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/wild-at-heart/10.webp",
+          "srcSmall": "/images/wild-at-heart/10-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/wild-at-heart/11.webp",
+          "srcSmall": "/images/wild-at-heart/11-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/wild-at-heart/12.webp",
+          "srcSmall": "/images/wild-at-heart/12-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/wild-at-heart/13.webp",
+          "srcSmall": "/images/wild-at-heart/13-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/wild-at-heart/14.webp",
+          "srcSmall": "/images/wild-at-heart/14-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/wild-at-heart/15.webp",
+          "srcSmall": "/images/wild-at-heart/15-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/wild-at-heart/16.webp",
+          "srcSmall": "/images/wild-at-heart/16-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/wild-at-heart/17.webp",
+          "srcSmall": "/images/wild-at-heart/17-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/wild-at-heart/18.webp",
+          "srcSmall": "/images/wild-at-heart/18-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/wild-at-heart/19.webp",
+          "srcSmall": "/images/wild-at-heart/19-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/wild-at-heart/20.webp",
+          "srcSmall": "/images/wild-at-heart/20-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/wild-at-heart/21.webp",
+          "srcSmall": "/images/wild-at-heart/21-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — interior",
+          "group": "interior"
+        },
+        {
+          "src": "/images/wild-at-heart/22.webp",
+          "srcSmall": "/images/wild-at-heart/22-1200.webp",
+          "width": 1500,
+          "height": 672,
+          "alt": "Wild at Heart — interior",
+          "group": "interior"
         }
       ]
     }
